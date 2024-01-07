@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+
+    <!--Main Section-->
+    <section class="hero is-fullheight" id="project">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="section">
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Ink & Ideals</p>
+                    <h3>Season 2</h3>
+                </div>
+                {% include shows/ink-and-ideals-card-02.html %}
+                <div class="section">
+                    <h3>Season 1</h3>
+                </div>
+                {% include shows/ink-and-ideals-card-01.html %}
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!--Footer-->
+    {% include footer.html %}
+</body>
+
+</html>

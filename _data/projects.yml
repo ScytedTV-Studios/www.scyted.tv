@@ -1,0 +1,24 @@
+- name: ScytedTV News
+  image: 
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXNy6-PttkNPjkINJ0K5uqCg
+  description: 
+- name: Ink & Ideals
+  link: https://www.scyted.tv/show/ink-and-ideals
+  image: 
+  description: 
+- name: Loyd Does Stupid Shit
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXNDYOYdFmhGU_QceJZNCUCF
+  image: 
+  description: 
+- name: Landor's Shorts
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXMC-e0WAbw9paEtJ9_s8wyZ
+  image: 
+  description: 
+- name: Inside Mind
+  link: https://www.scyted.tv/show/inside-mind
+  image: 
+  description: 
+- name: YouTube Gameshow
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXOqmen0bLZGUD2DqX_h6jAj
+  image: 
+  description: 
