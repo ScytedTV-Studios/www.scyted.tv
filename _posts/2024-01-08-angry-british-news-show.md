@@ -17,4 +17,5 @@ The goal of this show is not to share actual news, but to come up with funny and
 ## Sign Up:
 1. Join our [Discord Server](https://discord.gg/yrr7tEJNDr)
 2. Go to the #casting-calls channel
-3. Find the "Angry British News Show: Writers Call" post and say "I'm Interested".
+3. Find the "Angry British News Show: Writers Call" post
+4. Send a message saying "I'm Interested" in the thread

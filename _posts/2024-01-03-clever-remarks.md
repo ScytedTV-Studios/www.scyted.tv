@@ -21,6 +21,13 @@ In between each round there will be minigames that will grant extra points to th
 - Must be okay with using your legal first and last name for crediting (if you would like us to make an exception, please let us know the reason why and we might grant exceptions).
 
 ## Sign Up:
+
+**Discord**:
 1. Join our [Discord Server](https://discord.gg/yrr7tEJNDr)
 2. Go to the #casting-calls channel
-3. Find the "Clever Remarks: Episodes 1-2 & 4-5 Casting" post on the #casting-calls channel and say "I'm Interested".
+3. Find the "Clever Remarks: Episodes 1-2 & 4-5 Casting" post
+4. Send a message saying "I'm Interested" in the thread
+
+**Application Form**:
+
+Sign up through our Application form: [https://forms.gle/fGKmtBCiqEVKmfbU7](https://forms.gle/fGKmtBCiqEVKmfbU7)
