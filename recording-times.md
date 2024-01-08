@@ -1,8 +1,8 @@
 ---
-title: Clever Remarks
+title: ScytedTV Recording Times
 layout: post
-post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: Recording Times
+post-image: "https://cdn.scyted.tv/website-assets/casting-calls/recording-times.jpg"
+description: All show recording times are listed in this Calendar!
 tags:
 ---
 
