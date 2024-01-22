@@ -1,5 +1,5 @@
 ---
-title: Clever Remarks
+title: The Universe
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/the-universe.jpg"
 description: Looking for writers!
