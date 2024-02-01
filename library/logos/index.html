@@ -1,251 +1,304 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3996501092754288"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3996501092754288"
+    crossorigin="anonymous"></script>
 
-  <style>
-    body {
-      background-color: #ffea00;
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
+    <title>ScytedTV Assets Library - Redirect</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
 
-    ::-webkit-scrollbar {
-      width: 12px;
-    }
+        header {
+            background-color: #7289DA;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
 
-    ::-webkit-scrollbar-thumb {
-      background-color: #b2a300;
-      border-radius: 8px;
-    }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
 
-    ::-webkit-scrollbar-track {
-      background-color: #ffea00;
-      border-radius: 8px;
-    }
+        .nav-container {
+            display: flex;
+            align-items: center;
+        }
 
-    .logo {
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      max-width: 400px;
-      width: 100%;
-      height: auto;
-      cursor: pointer;
-    }
+        .user-info {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-right: 20px;
+        }
 
-    .dashboard-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-top: 150px;
-    }
+        .profile-picture {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
 
-    .table-container {
-      margin-top: 50px;
-      width: 100%;
-      max-width: 600px;
-      overflow-x: auto;
-    }
+        .user-dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-direction: column;
+            z-index: 1;
+        }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
+        .user-dropdown a {
+            color: #333;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
 
-    th, td {
-      padding: 12px;
-      color: black;
-      border-bottom: 1px solid #b2a300;
-    }
+        .user-dropdown a:hover {
+            background-color: #ddd;
+        }
 
-    th {
-      background-color: #b2a300;
-      text-transform: uppercase;
-    }
+        .user-dropdown.show {
+            display: flex;
+        }
 
-    td {
-      position: relative;
-      padding-left: 20px;
-    }
+        .user-dropdown a.logout {
+            color: #ff5252;
+        }
 
-    td .preview-container {
-      position: relative;
-    }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
 
-    td .preview {
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-      border-radius: 50%;
-    }
+        h1 {
+            color: #333;
+        }
 
-    td .preview:hover {
-      transform: scale(1.2);
-    }
+        .user-info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
 
-    td .lightbox {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.8);
-      z-index: 999;
-    }
+        .bot-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px;
+        }
 
-    td .lightbox video, td .lightbox img {
-      max-width: 90%;
-      max-height: 90%;
-      border-radius: 10px;
-    }
+        .bot-profile-picture {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
 
-    td .close {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      font-size: 24px;
-      color: white;
-      cursor: pointer;
-      background-color: rgba(0, 0, 0, 0.5);
-      width: 30px;
-      height: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%;
-    }
+        .bot-name {
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            /* Center the bot name */
+        }
 
-    td button {
-      background-color: #000000;
-      color: #FFEA00;
-      padding: 8px 16px;
-      border: none;
-      border-radius: 30px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      font-size: 12px;
-    }
+        .user-info-box {
+            flex: 1;
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
 
-    td button:hover {
-      background-color: #b2a300;
-      cursor: pointer;
-    }
-  </style>
+        .user-info-content {
+            text-align: center;
+        }
+
+        .error-message {
+            color: #ff5252;
+            margin-top: 10px;
+        }
+
+        .bot-details a {
+            text-decoration: none;
+        }
+
+        .bot-details a:hover .bot-name {
+            text-decoration: underline;
+        }
+
+        /* Hamburger menu styles */
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 3px 0;
+            transition: 0.4s;
+        }
+
+        .center-italicized {
+            text-align: center;
+            font-style: italic;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        nav {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        header {
+            background-color: #7289DA;
+            color: #fff;
+            text-align: center;
+            padding: 10px 10;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width: 768px) {
+            .nav-container {
+                display: none;
+            }
+
+            .hamburger-menu {
+                display: flex;
+            }
+
+            .user-info,
+            .user-info-container {
+                flex-direction: column;
+                align-items: center;
+                /* Center the user info */
+            }
+
+            .user-dropdown {
+                right: 0;
+            }
+
+            .user-info.show-dropdown .bar:nth-child(1) {
+                transform: rotate(-45deg) translate(-5px, 6px);
+            }
+
+            .user-info.show-dropdown .bar:nth-child(2) {
+                opacity: 0;
+            }
+
+            .user-info.show-dropdown .bar:nth-child(3) {
+                transform: rotate(45deg) translate(-5px, -6px);
+            }
+
+        }
+    </style>
 </head>
+
 <body>
-  <a href="https://www.scyted.tv/library" target="_self">
-    <img class="logo" src="https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-logo-black.png" alt="ScytedTV Logo">
-  </a>
-  <div class="dashboard-container">
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Template Title</th>
-            <th>Media Preview</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody id="table-body">
-          <!-- Table content will be dynamically generated here -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <script>
-    // Fetch the JSON data
-    fetch('https://api.scyted.tv/assets-library/libraries/logos.json')
-      .then(response => response.json())
-      .then(data => populateTable(data.items))
-      .catch(error => console.error('Error fetching JSON:', error));
-
-    function populateTable(items) {
-      const tableBody = document.getElementById('table-body');
-
-      items.forEach(item => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td>${item.fileName}</td>
-          <td>
-            <div class="preview-container">
-              ${getMediaPreview(item.fileLink, item.fileName)}
-              <div class="lightbox" onclick="closeLightbox()">
-                ${getLargeMediaPreview(item.fileLink, item.fileName)}
-                <span class="close" onclick="closeLightbox()">&times;</span>
-              </div>
+    <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
+    <header>
+        <nav>
+            <div class="logo">Wave Development</div>
+            <ul>
+                <li><a href="https://www.wavedev.app/" class="active">Home</a></li>
+                <li><a href="https://www.wavedev.app/dashboard/scytedtv-assets/">Login</a></li>
+            </ul>
             </div>
-          </td>
-          <td><a href="${item.fileDownloadLink}" download><button>Download</button></a></td>
-        `;
-        tableBody.appendChild(row);
-      });
-    }
-
-    function getMediaPreview(src, fileName) {
-      const ext = fileName.split('.').pop().toLowerCase();
-      if (ext === 'mp4') {
-        return `
-          <video class="preview" width="50" height="50" onclick="openLightbox('${src}')">
-            <source src="${src}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>`;
-      } else if (ext.match(/(png|jpe?g|gif)$/)) {
-        return `<img class="preview" src="${src}" alt="${fileName}" onclick="openLightbox('${src}')">`;
-      } else {
-        // Display a file icon for other file types
-        return `<img class="preview" src="file-icon.png" alt="${fileName}" onclick="openLightbox('${src}')">`;
-      }
-    }
-
-    function getLargeMediaPreview(src, fileName) {
-      const ext = fileName.split('.').pop().toLowerCase();
-      if (ext === 'mp4') {
-        return `
-          <video class="preview-large" controls>
-            <source src="${src}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>`;
-      } else if (ext.match(/(png|jpe?g|gif)$/)) {
-        return `<img class="preview-large" src="${src}" alt="${fileName}">`;
-      } else {
-        // Display a file icon for other file types
-        return `<img class="preview-large" src="file-icon.png" alt="${fileName}">`;
-      }
-    }
-
-    function openLightbox(src) {
-      const lightbox = document.querySelector('.lightbox');
-      const media = lightbox.querySelector('.preview-large');
-      media.src = src;
-      lightbox.style.display = 'flex';
-    }
-
-    function closeLightbox() {
-      const lightbox = document.querySelector('.lightbox');
-      const media = lightbox.querySelector('.preview-large');
-      if (media.tagName === 'VIDEO') {
-        media.pause();
-      }
-      lightbox.style.display = 'none';
-    }
-  </script>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="bot-details">
+            <img src="https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg" alt="Bot Profile Picture"
+                class="bot-profile-picture">
+            <div class="bot-name">ScytedTV Assets</div>
+        </div>
+        <div class="user-info-box" id="userInfoBox">
+            <h1>Moved!</h1>
+            <p id="redirect-message">This page has been moved to the Wave Development dashboard.<br>To access the dashboard, <a id="redirect-link"
+                    href="https://www.wavedev.app/dashboard/scytedtv-assets/">click
+                    this link</a>!</p>
+        </div>
+    </div>
 </body>
+<!-- <script>
+    // Redirect to YouTube after 5 seconds
+    setTimeout(function () {
+        window.location.href = "https://www.wavedev.app/dashboard/scytedtv-assets/";
+    }, 5000);
+</script> -->
+
 </html>
