@@ -2,7 +2,7 @@
 title: Clever Remarks (Season 1)
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: We are currently casting the first season of Clever Remarks!
+description: We are currently casting contestants for the first season of Clever Remarks!
 tags:
 - Team Alpha
 - Actor
@@ -20,7 +20,6 @@ In between each round there will be minigames that will grant extra points to th
 
 ## Sign Up:
 
-**Discord**:
 1. Join our [Discord Server](https://discord.gg/yrr7tEJNDr)
 2. Go to the #casting-calls channel
 3. Find the "Clever Remarks (Season 1)" post
