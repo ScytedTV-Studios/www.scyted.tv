@@ -35,7 +35,7 @@ A: No, it is not. Our Studio does not have any source of income at the moment an
 
 **Q: How is it recorded?**
 <br>
-A: We record it in a Discord VC with our Cameras and Microphones on. We have someone in the VC (usually an editor or producer) recording it on their end making sure we can get a decent quality recording.
+A: We record it in a Discord VC with our Cameras and Microphones on. We have someone in the VC (usually an Editor or Producer) recording it on their end making sure we can get a decent quality recording.
 <br><br>
 
 **Q: Do I *have* to use my Legal First and Last Name?**
