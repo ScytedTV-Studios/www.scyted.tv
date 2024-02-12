@@ -1,8 +1,8 @@
 ---
-title: Clever Remarks
+title: Clever Remarks (Season 1)
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: Season 1
+description: We are currently casting the first season of Clever Remarks!
 tags:
 - Team Alpha
 - Actor
@@ -45,7 +45,7 @@ A: We do allow you to use a preferred first name if you have one, although other
 
 **Q: Do I *have* to use my Camera?**
 <br>
-A: Yes, you do. We are considering alternatives such as VTubers and self-animated characters, but we have no timeline on when this might be allowed, if at all.
+A: Yes, you do. We are considering alternatives such as VTubers and self-animated characters, but we have no timeline on when this might be allowed, if at all. Things like masks or other face coverings that make it difficult to see you are also no allowed. Religious or other belief-based coverings will be allowed as long as it doesn't interfere with the flow of the show (like making it impossible to see or hear you at all).
 <br><br>
 
 **Q: Is the show NSFW?**
