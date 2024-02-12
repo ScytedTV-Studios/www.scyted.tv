@@ -23,9 +23,37 @@ In between each round there will be minigames that will grant extra points to th
 **Discord**:
 1. Join our [Discord Server](https://discord.gg/yrr7tEJNDr)
 2. Go to the #casting-calls channel
-3. Find the "Clever Remarks: Episodes 1-2 & 4-5 Casting" post
+3. Find the "Clever Remarks (Season 1)" post
 4. Send a message saying "I'm Interested" in the thread
 
-**Application Form**:
+## Frequently Asked Questions:
 
-Sign up through our Application form: [https://forms.gle/fGKmtBCiqEVKmfbU7](https://forms.gle/fGKmtBCiqEVKmfbU7)
+**Q: Is this a paid project?**
+<br>
+A: No, it is not. Our Studio does not have any source of income at the moment and cannot pay anyone. Everone is purely here on a volunteer basis and doing it for fun.
+<br><br>
+
+**Q: How is it recorded?**
+<br>
+A: We record it in a Discord VC with our Cameras and Microphones on. We have someone in the VC (usually an editor or producer) recording it on their end making sure we can get a decent quality recording.
+<br><br>
+
+**Q: Do I *have* to use my Legal First and Last Name?**
+<br>
+A: On occasion, we are known to make exceptions, but we have some very strict guidelines for using another name. Just ask a producer and we might be willing to make an exception. We make exceptions on a case-by-case basis. 
+<br><br>
+
+**Q: Do I *have* to use my Camera?**
+<br>
+A: Yes, you do. We are considering alternatives such as Vtubers and self-animated characters, but we have no timeline on *if* or *when* this might be allowed.
+<br><br>
+
+**Q: Is the show NSFW?**
+<br>
+A: For comedy value, some of the questions we ask can be NSFW; although some more than others. If you don't want to swear or are uncomfortable with anything NSFW, we can accomodate and put you in an episode where all of the NSFW questions have been removed.
+<br><br>
+
+**Q: When will my episode be release?**
+<br>
+A: Whenever the rest of the season is finished. We will keep you updated on any important things, as well as provide you with private previews of your episode when it is in the final stages, in which case you can provide feedback.
+<br><br>
