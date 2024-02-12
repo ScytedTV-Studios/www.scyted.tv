@@ -30,7 +30,7 @@ In between each round there will be minigames that will grant extra points to th
 
 **Q: Is this a paid project?**
 <br>
-A: No, it is not. Our Studio does not have any source of income at the moment and cannot pay anyone. Everone is purely here on a volunteer basis and doing it for fun.
+A: No, it is not. Our Studio does not have any source of income at the moment and cannot pay anyone. Everone is purely here on a volunteer basis and doing it for fun, experience, or for portfolio material.
 <br><br>
 
 **Q: How is it recorded?**
@@ -40,12 +40,12 @@ A: We record it in a Discord VC with our Cameras and Microphones on. We have som
 
 **Q: Do I *have* to use my Legal First and Last Name?**
 <br>
-A: On occasion, we are known to make exceptions, but we have some very strict guidelines for using another name. Just ask a producer and we might be willing to make an exception. We make exceptions on a case-by-case basis. 
+A: We do allow you to use a preferred first name if you have one, although other names need to be approved. On occasion, we are known to make exceptions, but we have some very strict guidelines for using another name. Just ask a producer and we might be willing to make an exception. We make exceptions on a case-by-case basis.
 <br><br>
 
 **Q: Do I *have* to use my Camera?**
 <br>
-A: Yes, you do. We are considering alternatives such as Vtubers and self-animated characters, but we have no timeline on *if* or *when* this might be allowed.
+A: Yes, you do. We are considering alternatives such as VTubers and self-animated characters, but we have no timeline on when this might be allowed, if at all.
 <br><br>
 
 **Q: Is the show NSFW?**
@@ -55,5 +55,5 @@ A: For comedy value, some of the questions we ask can be NSFW; although some mor
 
 **Q: When will my episode be release?**
 <br>
-A: Whenever the rest of the season is finished. We will keep you updated on any important things, as well as provide you with private previews of your episode when it is in the final stages, in which case you can provide feedback.
+A: Whenever the rest of the season is finished. We will keep you updated on any important things, as well as provide you with private previews of your episode when it is in the final stages of post-production, in which case you can provide feedback and recommend changes.
 <br><br>
