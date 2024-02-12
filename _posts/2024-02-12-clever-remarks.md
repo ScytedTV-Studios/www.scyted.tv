@@ -2,13 +2,11 @@
 title: Clever Remarks
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: Episodes 1-2 & 4-5 Casting
+description: Season 1
 tags:
 - Team Alpha
 - Actor
 ---
-
-*We are in need of 20 total contestants - 2 per episode with 10 total episodes. We are currently doing episodes 1-5 (excluding episode 3 as it's already recorded). If you are interested in applying, please leave a message in this thread and I will reach out to you to figure out a time. We need a total of 8 people for this first call.*
 
 ## Show Description:
 
