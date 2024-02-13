@@ -18,13 +18,6 @@ In between each round there will be minigames that will grant extra points to th
 - Must use a camera and microphone.
 - Must be okay with using your legal first and last name for crediting (if you would like us to make an exception, please let us know the reason why and we might grant exceptions).
 
-## Sign Up:
-
-1. Join our [Discord Server](https://discord.gg/yrr7tEJNDr)
-2. Go to the #casting-calls channel
-3. Find the "Clever Remarks (Season 1)" post
-4. Send a message saying "I'm Interested" in the thread
-
 ## Frequently Asked Questions:
 
 **Q: Is this a paid project?**
