@@ -10,7 +10,7 @@ tags:
 
 ## Show Description:
 
-The contestants of Clever Remarks are given a series of random questions that don't always make sense - or sometimes make too much sense - and it is their job to answer them and argue why their answer is correct over the answers of the other contestants.
+The contestants of Clever Remarks are given a series of random questions that don't always make sense - or sometimes make too much sense - and it is their job to answer them and argue why their answer is correct over the answers of the other contestant.
 
 In between each round there will be minigames that will grant extra points to the players. The final round of the game includes some opinion-based questions that are sometimes controversial (not counting towards any points) to spark some debate.
 
