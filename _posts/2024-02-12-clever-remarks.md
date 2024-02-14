@@ -16,7 +16,8 @@ In between each round there will be minigames that will grant extra points to th
 
 ## Requirements:
 - Must use a camera and microphone.
-- Must be okay with using your legal first and last name for crediting (if you would like us to make an exception, please let us know the reason why and we might grant exceptions).
+- Must be okay with using your legal First and Last Name.
+- Must have Discord for recording and planning.
 
 ## Frequently Asked Questions:
 
