@@ -1,0 +1,20 @@
+current directory: E:/Documents/Codespace/Website/docs/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: E:/Documents/Codespace/Website/docs/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240217-56976-qcmecw sitelibdir\=./.gem.20240217-56976-qcmecw clean
+
+current directory: E:/Documents/Codespace/Website/docs/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240217-56976-qcmecw sitelibdir\=./.gem.20240217-56976-qcmecw
+generating ruby_http_parser-x64-mingw-ucrt.def
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: E:/Documents/Codespace/Website/docs/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240217-56976-qcmecw sitelibdir\=./.gem.20240217-56976-qcmecw install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20240217-56976-qcmecw
+
+current directory: E:/Documents/Codespace/Website/docs/.bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240217-56976-qcmecw sitelibdir\=./.gem.20240217-56976-qcmecw clean
