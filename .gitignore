@@ -1,3 +1,4 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/jekyll,ruby
 # Edit at https://www.toptal.com/developers/gitignore?templates=jekyll,ruby
 
@@ -67,8 +68,5 @@ build-iPhoneSimulator/
 ### Ruby Patch ###
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
-
-# Ignore index.html within the /making-coffee folder
-/making-coffee/index.html
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,ruby
