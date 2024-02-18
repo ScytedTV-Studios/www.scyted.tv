@@ -2,11 +2,13 @@
 title: Clever Remarks (Season 1)
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: We are currently casting contestants for the first season of Clever Remarks!
+description: All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.
 tags:
 - Team Alpha
 - Actor
 ---
+
+> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
 
 ## Show Description:
 
@@ -14,10 +16,16 @@ The contestants of Clever Remarks are given a series of random questions that do
 
 In between each round there will be minigames that will grant extra points to the players. The final round of the game includes some opinion-based questions that are sometimes controversial (not counting towards any points) to spark some debate.
 
+<br>
+> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
+
 ## Requirements:
 - Must use a camera and microphone.
 - Must be okay with using your legal First and Last Name.
 - Must have Discord for recording and planning.
+
+<br>
+> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
 
 ## Frequently Asked Questions:
 
@@ -50,3 +58,5 @@ A: For comedy value, some of the questions we ask can be NSFW; although some mor
 <br>
 A: Whenever the rest of the season is finished. We will keep you updated on any important things, as well as provide you with private previews of your episode when it is in the final stages of post-production, in which case you can provide feedback and recommend changes.
 <br><br>
+
+> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
