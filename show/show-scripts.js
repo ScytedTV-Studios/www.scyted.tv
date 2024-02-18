@@ -17,7 +17,10 @@ function fetchVideos(playlistId, videoGrid) {
   fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}`)
       .then(response => response.json())
       .then(data => {
-          data.items.forEach(item => {
+          // Filter out private videos
+          const filteredItems = data.items.filter(item => item.snippet && item.snippet.title && item.snippet.thumbnails && item.snippet.thumbnails.default && item.snippet.resourceId && item.snippet.resourceId.videoId && item.snippet.privacyStatus !== "private");
+
+          filteredItems.forEach(item => {
               const videoId = item.snippet.resourceId.videoId;
               const videoTitle = item.snippet.title;
               // Select the highest quality thumbnail available, falling back to mq if maxres is not available

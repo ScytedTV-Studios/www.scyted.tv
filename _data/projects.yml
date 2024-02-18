@@ -1,21 +1,41 @@
-- name: ScytedTV News
+- name: Clever Remarks
   image: 
-  link: https://www.scyted.tv/show/scytedtv-news
+  link: https://www.scyted.tv/show/clever-remarks
+  description: 
+- name: Hot Gossip
+  image: 
+  link: https://www.scyted.tv/show/hot-gossip
   description: 
 - name: Ink & Ideals
   link: https://www.scyted.tv/show/ink-and-ideals
   image: 
   description: 
-- name: Loyd Does Stupid Shit
-  link: https://www.scyted.tv/show/loyd-does-stupid-shit
+- name: Inside Mind
+  link: https://www.scyted.tv/show/inside-mind
   image: 
   description: 
 - name: Landor's Shorts
   link: https://www.scyted.tv/show/landors-shorts
   image: 
   description: 
-- name: Inside Mind
-  link: https://www.scyted.tv/show/inside-mind
+- name: Loyd Does Stupid Shit
+  link: https://www.scyted.tv/show/loyd-does-stupid-shit
+  image: 
+  description: 
+- name: Milo's Life
+  image: 
+  link: https://www.scyted.tv/show/milos-life
+  description: 
+- name: ScytedTV Gaming
+  image: 
+  link: https://www.scyted.tv/show/scytedtv-gaming
+  description: 
+- name: ScytedTV News
+  image: 
+  link: https://www.scyted.tv/show/scytedtv-news
+  description: 
+- name: Yeowang's Shorts
+  link: https://www.scyted.tv/show/yeowangs-shorts
   image: 
   description: 
 - name: YouTube Gameshow
