@@ -5,6 +5,7 @@ description:
 ---
 
 <h3>Season 1</h3>
-<div class="video-grid" id="video-grid" data-playlist-id="PL5irix3qFbXMJZbC_ANJA9FYuvKVTym8z"></div>
+Newest → Oldest
+<div class="video-grid" id="video-grid" data-playlist-id="PLGyDiHCrWI7EFd0SI00uFtxEqPPdaM6IY"></div>
 
 <script src="show-scripts.js"></script>
