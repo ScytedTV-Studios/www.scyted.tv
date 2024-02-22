@@ -2,7 +2,7 @@
 title: Clever Remarks (Season 1)
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
-description: All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.
+description: The Game Show where we answer some of the world's silliest questions.
 tags:
 - Team Alpha
 - Actor
