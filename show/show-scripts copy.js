@@ -50,43 +50,31 @@ function fetchVideos(playlistId, videoGrid) {
       .catch(error => console.error("Error fetching videos: ", error));
 }
 
-function playVideo(playButton) {
-  const videoItem = playButton.parentNode;
-  const videoId = videoItem.dataset.videoId;
-  const thumbnail = videoItem.querySelector("img");
-  const videoTitle = videoItem.querySelector(".video-title");
-
-  if (currentVideoItem && currentVideoItem !== videoItem) {
-    // Reset previous video item if exists
-    const prevThumbnail = currentVideoItem.querySelector("img");
-    const prevPlayIcon = currentVideoItem.querySelector(".play-icon");
-    const prevVideoTitle = currentVideoItem.querySelector(".video-title");
-    const prevIframe = currentVideoItem.querySelector("iframe");
-
-    prevThumbnail.style.display = "block";
-    prevPlayIcon.style.display = "block";
-    prevVideoTitle.style.display = "block";
-    currentVideoItem.removeChild(prevIframe);
+  function playVideo(playButton) {
+    const videoItem = playButton.parentNode;
+    const videoId = videoItem.dataset.videoId;
+    if (currentVideoItem && currentVideoItem !== videoItem) {
+      const thumbnail = currentVideoItem.querySelector("img");
+      const playIcon = currentVideoItem.querySelector(".play-icon");
+      const videoTitle = currentVideoItem.querySelector(".video-title");
+      thumbnail.style.display = "block";
+      playIcon.style.display = "block";
+      videoTitle.style.display = "block";
+      currentVideoItem.removeChild(currentVideoItem.querySelector("iframe"));
+    }
+    const iframe = document.createElement("iframe");
+    iframe.classList.add("video-embed");
+    iframe.setAttribute("width", "100%");
+    iframe.setAttribute("height", "100%");
+    iframe.setAttribute("src", `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "true");
+    videoItem.querySelector("img").style.display = "none";
+    playButton.style.display = "none";
+    videoItem.querySelector(".video-title").style.display = "none";
+    videoItem.appendChild(iframe);
+    currentVideoItem = videoItem;
   }
-
-  const iframe = document.createElement("iframe");
-  iframe.classList.add("video-embed");
-  iframe.setAttribute("width", "100%");
-  // Dynamically calculate height to maintain 16:9 aspect ratio
-  const videoWidth = videoItem.clientWidth;
-  const videoHeight = (9 / 16) * videoWidth;
-  iframe.setAttribute("height", videoHeight);
-  iframe.setAttribute("src", `https://www.youtube.com/embed/${videoId}?autoplay=1`);
-  iframe.setAttribute("frameborder", "0");
-  iframe.setAttribute("allowfullscreen", "true");
-
-  thumbnail.style.display = "none";
-  playButton.style.display = "none";
-  videoTitle.style.display = "none";
-
-  videoItem.appendChild(iframe);
-  currentVideoItem = videoItem;
-}
 
   function showPlayButton(thumbnail) {
     const videoItem = thumbnail.parentNode;
