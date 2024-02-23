@@ -20,11 +20,12 @@
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/casting">CASTING CALLS</a>
-                <a class="navbar-item {% if page.type == 'schedule' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/schedule">SCHEDULE</a>
+                <a class="navbar-item {% if page.type == 'discussion' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/discussions">DISCUSSIONS [beta]</a>
                 <a class="navbar-item {% if page.type == 'show' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/shows">SHOWS</a>
-
+                <a class="navbar-item {% if page.type == 'schedule' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/schedule">SCHEDULE</a>
             </div>
         </div>
     </div>

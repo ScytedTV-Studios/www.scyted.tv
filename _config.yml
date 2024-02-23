@@ -92,6 +92,11 @@ defaults:
       type: 'show'
     values:
       layout: page
+  -
+    scope:
+      type: 'discussion'
+    values:
+      layout: page
 
 # Exclude
 exclude:
