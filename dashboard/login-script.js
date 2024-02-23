@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const storedAccessToken = getCookie("accessToken");
     if (storedAccessToken) {
         // Redirect to the dashboard
-        window.location.href = "http://www.scyted.tv/dashboard";
+        window.location.href = "https://www.scyted.tv/dashboard";
     }
 });
 
 function redirectToDiscord() {
     const clientId = '1210605376836206662'; // Replace with your Discord application's client ID
-    const redirectUri = 'http://www.scyted.tv/dashboard/login'; // Replace with your Discord application's redirect URI
+    const redirectUri = 'https://www.scyted.tv/dashboard/login'; // Replace with your Discord application's redirect URI
     const scope = 'identify'; // Adjust scopes as needed
 
     const discordAuthUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=${scope}`;
@@ -29,7 +29,7 @@ if (accessToken) {
             setCookie("accessToken", accessToken, 30); // Set cookie to expire in 30 days
 
             // Redirect to the dashboard
-            window.location.href = "http://www.scyted.tv/dashboard";
+            window.location.href = "https://www.scyted.tv/dashboard";
         } else {
             // Clear the accessToken cookie
             clearCookie("accessToken");
