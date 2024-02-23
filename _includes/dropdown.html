@@ -1,16 +1,13 @@
 <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
-        MORE
+        BETA
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/casting' %}
-        <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
+        <a class="navbar-item {% if page.type == 'dashboard' %}is-active{% endif %}"
+            href="{{site.url}}{{site.baseurl}}/dashboard/login">Dashboard</a>
+        <a class="navbar-item {% if page.type == 'discussion' %}is-active{% endif %}"
+            href="{{site.url}}{{site.baseurl}}/discussions">Discussions</a>
         </a>
-        {% endunless %}
-        {% endfor %}
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue
