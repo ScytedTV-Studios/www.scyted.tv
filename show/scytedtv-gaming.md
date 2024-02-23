@@ -1,6 +1,7 @@
 ---
 title: ScytedTV Gaming
 layout: page
+type: show
 description:
 ---
 

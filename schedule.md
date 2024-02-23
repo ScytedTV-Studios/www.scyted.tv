@@ -1,6 +1,7 @@
 ---
 title: ScytedTV Release Schedule
 layout: page
+type: schedule
 description: The official ScytedTV Show Release Schedule.
 ---
 

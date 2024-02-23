@@ -1,44 +1,44 @@
 - name: Clever Remarks
   image: https://cdn.scyted.tv/website-assets/show-banners/clever-remarks.jpg
-  link: https://www.scyted.tv/show/clever-remarks
+  link: clever-remarks
   description: 
 - name: Hot Gossip
   image: https://cdn.scyted.tv/website-assets/show-banners/hot-gossip.jpg
-  link: https://www.scyted.tv/show/hot-gossip
+  link: hot-gossip
   description: 
 - name: Ink & Ideals
   image: https://cdn.scyted.tv/website-assets/show-banners/ink-and-ideals.jpg
-  link: https://www.scyted.tv/show/ink-and-ideals
+  link: ink-and-ideals
   description: 
 - name: Inside Mind
   image: https://cdn.scyted.tv/website-assets/show-banners/inside-mind.jpg
-  link: https://www.scyted.tv/show/inside-mind
+  link: inside-mind
   description: 
 - name: Landor's Shorts
   image: https://cdn.scyted.tv/website-assets/show-banners/landors-shorts.jpg
-  link: https://www.scyted.tv/show/landors-shorts
+  link: landors-shorts
   description: 
 - name: Loyd Does Stupid Shit
   image: https://cdn.scyted.tv/website-assets/show-banners/loyd-does-stupid-shit.jpg
-  link: https://www.scyted.tv/show/loyd-does-stupid-shit
+  link: loyd-does-stupid-shit
   description: 
 - name: Milo's Life
   image: https://cdn.scyted.tv/website-assets/show-banners/milos-life.jpg
-  link: https://www.scyted.tv/show/milos-life
+  link: milos-life
   description: 
 - name: ScytedTV Gaming
   image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-gaming.jpg
-  link: https://www.scyted.tv/show/scytedtv-gaming
+  link: scytedtv-gaming
   description: 
 - name: ScytedTV News
   image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-news.jpg
-  link: https://www.scyted.tv/show/scytedtv-news
+  link: scytedtv-news
   description: 
 - name: Yeowang's Shorts
   image: https://cdn.scyted.tv/website-assets/show-banners/yeowangs-shorts.jpg
-  link: https://www.scyted.tv/show/yeowangs-shorts 
+  link: yeowangs-shorts 
   description: 
 - name: YouTube Gameshow
   image: https://cdn.scyted.tv/website-assets/show-banners/youtube-gameshow.jpg
-  link: https://www.scyted.tv/show/youtube-gameshow
+  link: youtube-gameshow
   description: 

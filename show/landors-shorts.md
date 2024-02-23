@@ -1,6 +1,7 @@
 ---
 title: Landor's Shorts
 layout: page
+type: show
 description:
 ---
 

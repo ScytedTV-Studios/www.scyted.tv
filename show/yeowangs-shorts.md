@@ -1,6 +1,7 @@
 ---
 title: Yeowang's Shorts
 layout: page
+type: show
 description:
 ---
 

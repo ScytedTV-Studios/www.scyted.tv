@@ -1,6 +1,7 @@
 ---
 title: Inside Mind
 layout: page
+type: show
 description:
 ---
 

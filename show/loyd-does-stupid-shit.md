@@ -1,6 +1,7 @@
 ---
 title: Loyd Does Stupid Shit
 layout: page
+type: show
 description:
 ---
 

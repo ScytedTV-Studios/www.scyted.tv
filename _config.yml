@@ -82,6 +82,16 @@ defaults:
       type: 'pages'
     values:
       layout: page
+  -
+    scope:
+      type: 'schedule'
+    values:
+      layout: page
+  -
+    scope:
+      type: 'show'
+    values:
+      layout: page
 
 # Exclude
 exclude:

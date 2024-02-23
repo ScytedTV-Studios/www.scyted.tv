@@ -1,6 +1,7 @@
 ---
 title: Ink & Ideals
 layout: page
+type: show
 description:
 ---
 

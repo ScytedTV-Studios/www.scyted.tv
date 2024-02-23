@@ -1,6 +1,7 @@
 ---
 title: ScytedTV News
 layout: page
+type: show
 description:
 ---
 

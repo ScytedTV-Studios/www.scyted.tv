@@ -1,6 +1,7 @@
 ---
 title: Clever Remarks
 layout: page
+type: show
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
 description: The Game Show where we answer some of the world's silliest questions.
 ---

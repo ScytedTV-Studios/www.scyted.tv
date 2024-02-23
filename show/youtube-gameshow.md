@@ -1,6 +1,7 @@
 ---
 title: YouTube Gameshow
 layout: page
+type: show
 description:
 ---
 

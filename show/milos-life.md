@@ -1,6 +1,7 @@
 ---
 title: Milo's Life
 layout: page
+type: show
 description:
 ---
 

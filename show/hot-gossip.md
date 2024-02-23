@@ -1,6 +1,7 @@
 ---
 title: Hot Gossip
 layout: page
+type: show
 description:
 ---
 
