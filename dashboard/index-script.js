@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             // Clear cookies
                             document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                             // Redirect to the specified page if the user's ID is not in the 
-                            window.location.href = "./login?error=invalidAccess";
+                            window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=invalidAccess`;
                         }
                     })
                     .catch(error => {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Clear cookies
                 document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                 // Handle error (e.g., redirect to login page)
-                window.location.href = "./login?error=fetchingUserData";
+                window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=fetchingUserData`;
             });
     }
 });
@@ -123,7 +123,7 @@ function logout() {
     document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
     // Redirect to login page
-    window.location.href = "./login";
+    window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
 }
 
 function getCookie(name) {
