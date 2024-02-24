@@ -34,6 +34,10 @@
   image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-news.jpg
   link: scytedtv-news
   description: 
+- name: The Universe
+  image: https://cdn.scyted.tv/website-assets/show-banners/the-universe.jpg
+  link: the-universe
+  description: 
 - name: Yeowang's Shorts
   image: https://cdn.scyted.tv/website-assets/show-banners/yeowangs-shorts.jpg
   link: yeowangs-shorts 
