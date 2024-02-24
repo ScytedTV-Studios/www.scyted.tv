@@ -1,9 +1,11 @@
+const currentURL = window.location.href;
+
 document.addEventListener("DOMContentLoaded", function () {
     const storedAccessToken = getCookie("accessToken");
 
     // Redirect to login if access token is not found
     if (!storedAccessToken) {
-        window.location.href = "./login?error=invalidLogin";
+        window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
     } else {
         // Fetch user data from Discord API
         fetchDiscordUserData(storedAccessToken)
@@ -41,6 +43,43 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     }
 });
+
+const urlParams = new URLSearchParams(window.location.hash.substring(1));
+const accessToken = urlParams.get("access_token");
+
+if (accessToken) {
+    try {
+        // Check if the access token is valid (add your validation logic here)
+        if (isValidAccessToken(accessToken)) {
+            // Store the access token in a cookie
+            setCookie("accessToken", accessToken, 30); // Set cookie to expire in 30 days
+            // Redirect to the dashboard
+            window.location.href = "./";
+        } else {
+            // Clear the accessToken cookie
+            clearCookie("accessToken");
+        }
+    } catch (error) {
+        console.error("Error setting accessToken:", error);
+    }
+}
+
+function isValidAccessToken(token) {
+    // Add your validation logic here
+    // Return true if the token is valid, otherwise return false
+    return true; // Placeholder, replace with actual validation
+}
+
+function setCookie(name, value, days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
+function clearCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+}
 
 function fetchDiscordUserData(accessToken) {
     const apiUrl = 'https://discord.com/api/users/@me';
