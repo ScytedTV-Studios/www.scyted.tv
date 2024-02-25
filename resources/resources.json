@@ -2,26 +2,32 @@
     {
       "imageUrl": "https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg",
       "title": "ScytedTV Assets",
-      "description": "Description for Resource 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Just adding more reference content to make the description even longer.",
+      "description": "Download official ScytedTV Assets such as logos, branding images, etc.",
       "resourceUrl": "scytedtv-assets"
     },
     {
-        "imageUrl": "https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg",
-        "title": "ScytedTV Assets",
-        "description": "Description for Resource 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Just adding more reference content to make the description even longer.",
-        "resourceUrl": "scytedtv-assets"
-      },
-      {
-        "imageUrl": "https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg",
-        "title": "ScytedTV Assets",
-        "description": "Description for Resource 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Just adding more reference content to make the description even longer.",
-        "resourceUrl": "scytedtv-assets"
-      },
-      {
-        "imageUrl": "https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg",
-        "title": "ScytedTV Assets",
-        "description": "Description for Resource 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Just adding more reference content to make the description even longer.",
-        "resourceUrl": "scytedtv-assets"
-      }
+        "imageUrl": "https://cdn.scyted.tv/jujus-better-wynncraft/logo.png",
+        "title": "JuJu's Better Wynncraft",
+        "description": "A Minecraft Modpack for your Wynncraft Essentials and Quality of Life changes.",
+        "resourceUrl": "jujus-better-wynncraft"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/discord-wave/wave.jpg",
+        "title": "Wave 24/7",
+        "description": "Discord Music Bot, 24/7 Music, Custom Genres, Seasonal Events, Quick Support, and More!",
+        "resourceUrl": "https://www.wavedev.app/dashboard/wave"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/discord-levlr/levlr.png",
+        "title": "Levlr",
+        "description": "A global leveling bot that combines your levels across all the servers Levlr is in.",
+        "resourceUrl": "https://www.wavedev.app/dashboard/levlr"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/discord-heart-collectors/heart-collectors.png",
+        "title": "Heart Collectors",
+        "description": "A discord bot for collecting heart emojis. Very simple, but some people love it!",
+        "resourceUrl": "https://www.wavedev.app/dashboard/heart-collectors"
+    }
   ]
   
