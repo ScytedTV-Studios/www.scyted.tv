@@ -180,9 +180,6 @@ type: resources
     </div>
     </div>
 
-</div>
-</div>
-
 <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
 <script src="index-script.js"></script>
 <script src="insert-scripts.js"></script>

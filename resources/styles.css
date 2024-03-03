@@ -1,3 +1,43 @@
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .resource-item {
+        padding: 10px;
+    }
+
+    .resource-image {
+        border-radius: 15px;
+    }
+
+    .resource-title {
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+
+    .description {
+        max-height: 70px;
+    }
+
+    .more-details {
+        font-size: 14px;
+    }
+}
+
+/* General Styles */
 .banner {
     position: relative;
     text-align: center;
