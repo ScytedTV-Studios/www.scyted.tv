@@ -1,5 +1,5 @@
 ---
-title: Angry British News Show
+title: Extra, Extra!
 layout: post
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/angry-british-news-show.jpg"
 description: Looking for writers!
