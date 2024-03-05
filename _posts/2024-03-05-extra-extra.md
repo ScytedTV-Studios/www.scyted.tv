@@ -1,7 +1,7 @@
 ---
 title: Extra, Extra!
 layout: post
-post-image: "https://cdn.scyted.tv/website-assets/casting-calls/angry-british-news-show.jpg"
+post-image: "https://cdn.scyted.tv/website-assets/casting-calls/extra-extra.jpg"
 description: Looking for writers!
 tags:
 - Team Alpha
