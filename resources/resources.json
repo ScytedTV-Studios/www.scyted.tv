@@ -28,6 +28,12 @@
         "title": "Heart Collectors",
         "description": "A discord bot for collecting heart emojis. Very simple, but some people love it!",
         "resourceUrl": "https://www.wavedev.app/dashboard/heart-collectors"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/jujus-better-wynncraft/logo-inverted.png",
+        "title": "JBW Archive",
+        "description": "JuJu's Better Wynncraft Archive.",
+        "resourceUrl": "jbw-archive"
     }
   ]
   

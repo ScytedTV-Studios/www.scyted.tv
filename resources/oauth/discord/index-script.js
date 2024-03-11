@@ -1,32 +1,41 @@
 const currentURL = window.location.href;
 
+function redirectToDiscord() {
+
+    const AuthUrl = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}callback`;
+    window.location.href = AuthUrl;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const storedAccessToken = getCookie("accessToken");
-
+    displayContents();
     // Redirect to login if access token is not found
     if (!storedAccessToken) {
-        window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
+        // window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
+        displayLoginButton();
     } else {
         // Fetch user data from Discord API
         fetchDiscordUserData(storedAccessToken)
             .then(userData => {
                 // Display bot info and user info on the dashboard
-                displayBotInfo();
-                displayUserInfo(userData);
+                
+                callback();
 
                 const loggedInUserId = userData.id;
 
                 // Fetch the list of user IDs from the JSON file
-                fetch('https://api.scyted.tv/wave-development/dashboard/access/scytedtv-user-access.json')
-                // fetch('https://api.scyted.tv/website/dashboard/access/dashboard-access.json')
+                // fetch('https://api.scyted.tv/wave-development/dashboard/access/scytedtv-user-access.json')
+                fetch('https://api.scyted.tv/website/dashboard/access/dashboard-access.json')
                     .then(response => response.json())
                     .then(userIds => {
                         // Check if the logged-in user's ID is in the list
                         if (!userIds.includes(loggedInUserId)) {
                             // Clear cookies
-                            document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                            // document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                             // Redirect to the specified page if the user's ID is not in the 
-                            window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=invalidAccess`;
+                            // window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=invalidAccess`;
+                            displayContents();
+                displayUserInfo(userData);
                         }
                     })
                     .catch(error => {
@@ -37,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => {
                 console.error("Error fetching user data:", error);
                 // Clear cookies
-                document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                // document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                 // Handle error (e.g., redirect to login page)
-                window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=fetchingUserData`;
+                // window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?error=fetchingUserData`;
             });
     }
 });
@@ -97,33 +106,16 @@ function fetchDiscordUserData(accessToken) {
         });
 }
 
-function displayUserInfo(userData) {
-    // const userDropdown = document.getElementById('userDropdown');
-    // const profilePicture = document.querySelector('.profile-picture');
-    // const username = document.querySelector('.user-info span');
-
-    // // Check if userData.avatar is null
-    // if (userData.avatar === null || userData.avatar === "null") {
-    //     profilePicture.src = "https://cdn.scyted.tv/website-assets/wave-development/default-discord.png";
-    // } else {
-    //     profilePicture.src = `https://cdn.discordapp.com/avatars/${userData.id}/${userData.avatar}.png`;
-    // }
-
-    // username.textContent = userData.username;
-
-    return true;
-}
-
-function displayBotInfo() {
-    // Implement your bot info display logic here
-}
-
 function logout() {
     // Clear cookies
     document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 
     // Redirect to login page
-    window.location.href = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
+    window.location.href = `${currentURL}`;
+}
+
+function backButton() {
+    window.location.href = `../`;
 }
 
 function getCookie(name) {

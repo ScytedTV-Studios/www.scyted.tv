@@ -2,7 +2,7 @@ const currentURL = window.location.href;
 
 function redirectToDiscord() {
 
-    const AuthUrl = `http://localhost:4000/resources/oauth/discord/?callbackUrl=${currentURL}`;
+    const AuthUrl = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}callback`;
     window.location.href = AuthUrl;
 }
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(userData => {
                 // Display bot info and user info on the dashboard
                 
-                displayUserInfo(userData);
+                callback();
 
                 const loggedInUserId = userData.id;
 

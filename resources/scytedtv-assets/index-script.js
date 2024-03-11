@@ -2,7 +2,7 @@ const currentURL = window.location.href;
 
 function redirectToDiscord() {
 
-    const AuthUrl = `https://auth.scyted.tv/www.scyted.tv/dashboard-temp?redirectUri=${currentURL}`;
+    const AuthUrl = `http://localhost:4000/resources/oauth/discord/?callbackUrl=${currentURL}`;
     window.location.href = AuthUrl;
 }
 
