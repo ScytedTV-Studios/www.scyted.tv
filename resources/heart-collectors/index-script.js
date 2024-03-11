@@ -1,8 +1,8 @@
 const currentURL = window.location.href;
 
 function redirectToDiscord() {
-
-    const AuthUrl = `http://localhost:4000/resources/oauth/discord/?callbackUrl=${currentURL}`;
+    const baseURL = window.location.origin; // Extract base URL
+    const AuthUrl = `${baseURL}/resources/oauth/discord/?callbackUrl=${encodeURIComponent(currentURL)}`;
     window.location.href = AuthUrl;
 }
 
