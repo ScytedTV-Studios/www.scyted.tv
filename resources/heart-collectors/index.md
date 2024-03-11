@@ -33,9 +33,9 @@ type: resources
   <div class="resource-back" onclick="backButton()"><p>← back</p></div>
 
   <div class="resource-info-box">
-    <img src="https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg" alt="Resource Image" class="resource-image">
-    <h3>ScytedTV Assets</h3>
-    Download official ScytedTV Assets such as logos, branding images, etc.
+    <img src="https://cdn.scyted.tv/discord-heart-collectors/heart-collectors.png" alt="Resource Image" class="resource-image">
+    <h3>Heart Collectors</h3>
+    A discord bot for collecting heart emojis. Very simple, but some people love it!
   </div>
   
   </div>

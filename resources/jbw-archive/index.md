@@ -12,8 +12,15 @@ type: resources
         display: none;
     }
 </style>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources.css">
+<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/mobile-lock.css">
 <body>
+
+<div class="mobile-error">
+  <div id="error-message" style="color: red;">
+    ScytedTV Resources isn't currently available to mobile users at this time.
+  </div>
+</div>
 <script src="jujus-better-wynncraft.js"></script>
 
 <div class="banner">
@@ -29,6 +36,7 @@ type: resources
   <div class="resource-info-box">
     <img src="https://cdn.scyted.tv/jujus-better-wynncraft/logo-inverted.png" alt="Resource Image" class="resource-image">
     <h3>JBW Archive</h3>
+    A Minecraft Modpack for your Wynncraft Essentials and Quality of Life changes.
   </div>
   
   </div>
@@ -108,10 +116,10 @@ type: resources
             <div id="messageContainer"></div>
         </div>
 
-        <div class="user-info-box" id="userInfoBox">
+        <!-- <div class="user-info-box" id="userInfoBox">
             <p>Join the Wave Development Discord Server for support: <a
                     href="https://discord.gg/JEeUqPQwBF">discord.gg/JEeUqPQwBF</a></p>
-        </div>
+        </div> -->
 
     </div>
     </div>

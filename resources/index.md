@@ -12,8 +12,15 @@ type: resources
         display: none;
     }
 </style>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources.css">
+<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/mobile-lock.css">
 <body>
+
+<div class="mobile-error">
+  <div id="error-message" style="color: red;">
+    ScytedTV Resources isn't currently available to mobile users at this time.
+  </div>
+</div>
 
 <div class="banner">
     <img src="https://cdn.scyted.tv/website-assets/resource-portal/banner.jpg" alt="Banner Image" class="banner-image">
