@@ -1,7 +1,7 @@
 ---
 title: Resource Directory
 layout: page
-type: crew
+type: cast
 ---
 <style>
     hr.has-background-black {
