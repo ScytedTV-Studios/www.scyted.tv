@@ -1,0 +1,27 @@
+[
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/clever-remarks.jpg",
+        "title": "Clever Remarks",
+        "description": "",
+        "resourceUrl": "clever-remarks"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/ink-and-ideals.jpg",
+        "title": "Ink & Ideals",
+        "description": "",
+        "resourceUrl": "ink-and-ideals"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
+        "title": "ScytedTV News",
+        "description": "",
+        "resourceUrl": "scytedtv-news"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/milos-life.jpg",
+        "title": "Milo's Life",
+        "description": "",
+        "resourceUrl": "milos-life"
+    }
+  ]
+  

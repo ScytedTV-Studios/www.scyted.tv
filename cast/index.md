@@ -1,7 +1,7 @@
 ---
 title: Resource Directory
 layout: page
-type: team
+type: cast
 ---
 <style>
     hr.has-background-black {
@@ -31,8 +31,8 @@ type: team
 </style>
 
 <div class="banner">
-    <h1>Mangement</h1>
-    <input type="text" class="search-bar" placeholder="Search team members...">
+    <h1>Cast Members</h1>
+    <input type="text" class="search-bar" placeholder="Search shows...">
   </div>
 
 <div class="grid" id="resource-grid">
