@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             // document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                             // Redirect to the specified page if the user's ID is not in the 
                             // window.location.href = `https://auth.scyted.tv/www.scyted.tv/resources-temp?error=invalidAccess`;
-                            displayErrorInvalidAccess();
+                            // displayErrorInvalidAccess();
+                            return true;
                         }
                     })
                     .catch(error => {
