@@ -1,5 +1,6 @@
 ---
-title: Casting
-layout: blog
+title: Casting Calls
+layout: casting
+type: blog
 ---
 

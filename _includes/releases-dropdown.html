@@ -1,0 +1,16 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        Shows
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+        <a class="navbar-item {% if page.type == 'show' %}is-active{% endif %}"
+            href="{{site.url}}{{site.baseurl}}/shows">Show List</a>
+        <a class="navbar-item {% if page.type == 'schedule' %}is-active{% endif %}"
+            href="{{site.url}}{{site.baseurl}}/schedule">Schedule</a>
+        </a>
+        <!-- <hr class="navbar-divider">
+    <a class="navbar-item">
+      Report an issue
+    </a> -->
+    </div>
+</div>

@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "casting/:title"
+permalink: "blog/:title"
 
 # Compress
 compress_html:
@@ -70,13 +70,26 @@ compress_html:
 defaults:
   -
     scope:
-      type: 'posts'
+      type: 'castingposts'
     values:
-      layout: post
+      layout: castingpost
       post-image: ""
       description: ""
+      posts_dir: "_castingposts"
       tags:
         - ""
+
+  -
+    scope:
+      type: 'blogposts'
+    values:
+      layout: blogpost
+      post-image: ""
+      description: ""
+      posts_dir: "_blogposts"
+      tags:
+        - ""
+
   -
     scope:
       type: 'pages'

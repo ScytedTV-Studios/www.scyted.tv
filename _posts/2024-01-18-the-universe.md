@@ -1,11 +1,11 @@
 ---
 title: The Universe
-layout: post
+layout: blogpost
+type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/the-universe.jpg"
 description: Looking for writers!
 tags:
-- Team Alpha
-- Writer
+- Casting
 ---
 
 *We have a pre-recorded story for the first season and we need some writers to help take this pre-recorded audio and write it into a script so we can get proper voice actors to record the lines.*
