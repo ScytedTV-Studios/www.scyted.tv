@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Redirect to login if access token is not found
     if (!storedAccessToken) {
-        // window.location.href = `https://auth.scyted.tv/www.scyted.tv/resources-temp?redirectUri=${currentURL}`;
+        // window.location.href = `https://auth.scyted.tv/www.scyted.tv/discord?redirectUri=${currentURL}`;
         displayAccessError();
     } else {
         // Fetch user data from Discord API
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             // Clear cookies
                             // document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                             // Redirect to the specified page if the user's ID is not in the 
-                            // window.location.href = `https://auth.scyted.tv/www.scyted.tv/resources-temp?error=invalidAccess`;
+                            // window.location.href = `https://auth.scyted.tv/www.scyted.tv/discord?error=invalidAccess`;
                             // displayErrorInvalidAccess();
                             return true;
                         }
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Clear cookies
                 // document.cookie = "accessToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                 // Handle error (e.g., redirect to login page)
-                // window.location.href = `https://auth.scyted.tv/www.scyted.tv/resources-temp?error=fetchingUserData`;
+                // window.location.href = `https://auth.scyted.tv/www.scyted.tv/discord?error=fetchingUserData`;
             });
     }
 });
