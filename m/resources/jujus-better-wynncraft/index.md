@@ -91,18 +91,18 @@ type: resources
 
             <h4>Mods</h4>
 
-            -Cloth Config API-
-            -Controlling-
-            -Fabric API-
-            -Fabric Language Kotlin-
-            -Iris Shaders-
-            -FPS Reducer-
-            -Searchables-
-            -Sodium-
-            -Sodium Extra-
-            -Voices of Wynn-
-            -Wynntils-
-            -YetAnotherConfigLib-
+            <li>Cloth Config API</li>
+            <li>Controlling</li>
+            <li>Fabric API</li>
+            <li>Fabric Language Kotlin</li>
+            <li>Iris Shaders</li>
+            <li>FPS Reducer</li>
+            <li>Searchables</li>
+            <li>Sodium</li>
+            <li>Sodium Extra</li>
+            <li>Voices of Wynn</li>
+            <li>Wynntils</li>
+            <li>YetAnotherConfigLib</li>
         </div>
 
 
@@ -115,29 +115,29 @@ type: resources
 
             <p>Includes everything from Essentials, Plus:</p>
 
-            -AmbientSounds 5-
-            -Athena-
-            -Better Third Person-
-            -Capes-
-            -CompleteConfig-
-            -CreativeCore-
-            -Debugify-
-            -Enhanced Block Entities-
-            -Entity Texture Features-
-            -Falling Leaves-
-            -FerriteCore-
-            -Indium-
-            -Krypton-
-            -LazyDFU-
-            -Lithium-
-            -Mouse Tweaks-
-            -Not Enough Animations-
-            -Physics Mod-
-            -Skin Layers 3D-
-            -Sound Physics Remastered-
-            -Starlight-
-            -YDM's Weapon Master-
-            -Zoomify-
+            <li>AmbientSounds 5</li>
+            <li>Athena</li>
+            <li>Better Third Person</li>
+            <li>Capes</li>
+            <li>CompleteConfig</li>
+            <li>CreativeCore</li>
+            <li>Debugify</li>
+            <li>Enhanced Block Entities</li>
+            <li>Entity Texture Features</li>
+            <li>Falling Leaves</li>
+            <li>FerriteCore</li>
+            <li>Indium</li>
+            <li>Krypton</li>
+            <li>LazyDFU</li>
+            <li>Lithium</li>
+            <li>Mouse Tweaks</li>
+            <li>Not Enough Animations</li>
+            <li>Physics Mod</li>
+            <li>Skin Layers 3D</li>
+            <li>Sound Physics Remastered</li>
+            <li>Starlight</li>
+            <li>YDM's Weapon Master</li>
+            <li>Zoomify</li>
 
         </div>
 
@@ -151,23 +151,23 @@ type: resources
 
             <p>Includes everything from Essentials and Extras, Plus:</p>
 
-            -Avomod-
-            -Better Beds-
-            -Blur-
-            -CIT Resewn-
-            -Don't Clear Chat History-
-            -Entity View Distance-
-            -Inventory HUD+-
-            -More Chat History-
-            -Reese's Sodium Options-
-            -Replay Mod-
-            -Satin API-
-            -Shoulder Surfing Reloaded-
-            -Show Me Your Skin-
-            -ShowMeMyDPS!-
-            -Sounds-
-            -Visuality-
-            -Wavey Capes-
+            <li>Avomod</li>
+            <li>Better Beds</li>
+            <li>Blur</li>
+            <li>CIT Resewn</li>
+            <li>Don't Clear Chat History</li>
+            <li>Entity View Distance</li>
+            <li>Inventory HUD+</li>
+            <li>More Chat History</li>
+            <li>Reese's Sodium Options</li>
+            <li>Replay Mod</li>
+            <li>Satin API</li>
+            <li>Shoulder Surfing Reloaded</li>
+            <li>Show Me Your Skin</li>
+            <li>ShowMeMyDPS!</li>
+            <li>Sounds</li>
+            <li>Visuality</li>
+            <li>Wavey Capes</li>
         </div>
 
 
