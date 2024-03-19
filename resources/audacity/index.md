@@ -16,11 +16,11 @@ type: resources
 <link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/mobile-lock.css">
 <body>
 
-<div class="mobile-error">
+<!-- <div class="mobile-error">
   <div id="error-message" style="color: red;">
     ScytedTV Resources isn't currently available to mobile users at this time.
   </div>
-</div>
+</div> -->
 
 <div class="banner">
     <img src="https://cdn.scyted.tv/website-assets/resource-portal/banner.jpg" alt="Banner Image" class="banner-image">
@@ -81,6 +81,7 @@ Now that you've done that, set "Noise reduction (dB)" to 10, "Sensativity" to 2.
 <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
 <script src="index-script.js"></script>
 <script src="insert-scripts.js"></script>
+<script src="https://api.scyted.tv/wave-development/dashboard/mobile-redirect.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
 
 </body>
