@@ -16,12 +16,6 @@ type: cast
 <!-- <link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/mobile-lock.css"> -->
 <body>
 
-<!-- <!-- <div class="mobile-error">
-  <div id="error-message" style="color: red;">
-    ScytedTV Resources isn't currently available to mobile users at this time.
-  </div>
-</div> --> -->
-
 <style>
 
   .banner h1 {
