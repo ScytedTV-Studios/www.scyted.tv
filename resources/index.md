@@ -33,7 +33,7 @@ type: resources
   <script src="script.js"></script>
   <script src="https://api.scyted.tv/wave-development/dashboard/mobile-redirect.js"></script>
 
-<script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
+<!-- <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script> -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
 
 </body>
