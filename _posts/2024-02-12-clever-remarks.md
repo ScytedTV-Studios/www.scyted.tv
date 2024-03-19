@@ -1,6 +1,6 @@
 ---
 title: Clever Remarks (Season 1)
-layout: blogpost
+layout: post
 type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
 description: The Game Show where we answer some of the world's silliest questions.

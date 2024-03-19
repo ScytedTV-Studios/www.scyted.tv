@@ -1,6 +1,6 @@
 ---
 title: Extra, Extra!
-layout: blogpost
+layout: post
 type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/extra-extra.jpg"
 description: Looking for writers!
