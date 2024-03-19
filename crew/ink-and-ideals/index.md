@@ -1,5 +1,5 @@
 ---
-title: Resource Directory
+title: Crew
 layout: page
 type: crew
 ---

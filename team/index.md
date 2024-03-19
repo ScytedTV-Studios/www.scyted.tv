@@ -1,5 +1,5 @@
 ---
-title: Resource Directory
+title: Team
 layout: page
 type: team
 ---

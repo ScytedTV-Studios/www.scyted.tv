@@ -1,5 +1,5 @@
 ---
-title: Resource Directory
+title: Cast
 layout: page
 type: cast
 ---

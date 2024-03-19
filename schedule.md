@@ -20,6 +20,6 @@ description: The official ScytedTV Show Release Schedule.
         }
     </style>
 
-<iframe id="calendar-iframe" src="https://embed.styledcalendar.com/#bCwvC47Y17egiZWCApEq" title="Styled Calendar"
+<iframe id="calendar-iframe" src="https://embed.styledcalendar.com/#bCwvC47Y17egiZWCApEq" title="ScytedTV Calendar"
         class="styled-calendar-container" data-cy="calendar-embed-iframe"></iframe>
 <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
