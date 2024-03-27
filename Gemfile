@@ -29,3 +29,5 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", :install_if => Gem.win_platform?
+
+gem 'jekyll-sitemap'
