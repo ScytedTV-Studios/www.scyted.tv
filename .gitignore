@@ -7,6 +7,21 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+discussions/
+making-coffee/
+.env
+reads/
+index-maintenance.html
+404-maintenance.html
+test-page.md
+library/
+password-test.html
+
+# REMOVING THINGS FROM THE REPO:
+# Files:
+# git rm --cached <file name>
+# Folders: 
+# git rm -r --cached <folder name>
 
 ### Ruby ###
 *.gem
