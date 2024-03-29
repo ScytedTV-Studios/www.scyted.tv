@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin: 0; /* Remove margin */
+            padding-bottom: 20px; /* Add padding for spacing */
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            border-radius: 12px;
+            outline: none;
+        }
+        #videoControls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+        }
+        #videoControls button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #videoControls button:hover {
+            background-color: #45a049;
+        }
+        #timeDisplay {
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Custom Video Player</h1>
+        <video id="videoPlayer" controls>
+            <source src="https://cdn.pd8.workers.dev/api/file/nQD7BCh2" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="videoControls">
+            <button id="playPauseBtn">Play/Pause</button>
+            <div id="timeDisplay">
+                <span id="currentTime">00:00</span>
+                <span>/</span>
+                <span id="duration">00:00</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            var video = document.getElementById('videoPlayer');
+            var playPauseBtn = document.getElementById('playPauseBtn');
+            var currentTimeSpan = document.getElementById('currentTime');
+            var durationSpan = document.getElementById('duration');
+            var videoUrl = window.location.href;
+
+            video.onloadedmetadata = function() {
+                durationSpan.textContent = formatTime(video.duration);
+            };
+
+            // Check if there's a saved playback time for this video
+            var playbackTime = getCookie(videoUrl);
+
+            if (playbackTime) {
+                video.currentTime = playbackTime;
+            }
+
+            // Save the playback time whenever the video is paused
+            video.addEventListener('pause', function() {
+                setCookie(videoUrl, video.currentTime, 365);
+            });
+
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+                var expires = "";
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toUTCString();
+                }
+                document.cookie = name + "=" + value + expires + "; path=/";
+            }
+
+            // Function to get a cookie
+            function getCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return parseFloat(c.substring(nameEQ.length, c.length));
+                }
+                return null;
+            }
+
+            // Format time in MM:SS format
+            function formatTime(seconds) {
+                var minutes = Math.floor(seconds / 60);
+                var remainingSeconds = Math.floor(seconds % 60);
+                return `${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+            }
+
+            // Play/Pause button functionality
+            playPauseBtn.addEventListener('click', function() {
+                if (video.paused) {
+                    video.play();
+                    playPauseBtn.textContent = 'Pause';
+                } else {
+                    video.pause();
+                    playPauseBtn.textContent = 'Play';
+                }
+            });
+
+            // Update current time display as video progresses
+            video.addEventListener('timeupdate', function() {
+                currentTimeSpan.textContent = formatTime(video.currentTime);
+            });
+        };
+    </script>
+</body>
+</html>
