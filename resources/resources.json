@@ -46,6 +46,12 @@
         "title": "GTA V Achievements",
         "description": "Loyd's Grand Theft Auto V achievement tracking.",
         "resourceUrl": "loyd-gtav"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-minecraft-ps3.jpg",
+        "title": "Minecraft PS3 Achievements",
+        "description": "Loyd's Minecraft PS3 achievement tracking.",
+        "resourceUrl": "loyd-minecraft-ps3"
     }
   ]
   
