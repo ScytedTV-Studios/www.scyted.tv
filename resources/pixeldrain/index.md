@@ -95,7 +95,7 @@ Input the last part of the "<code>pixeldrain.com/u/</code>" link (the ID) that y
 
 <br><br>
 
-Additionally, we should note that the resources doesn't currently function very well on mobile devices and may not any time soon. This was built as a proof of concept, so keep that in mind while using this.
+Additionally, I should note that this resource doesn't currently function very well on mobile devices and may not any time soon. This was built as a proof of concept, so keep that in mind while using this.
 
 <br><br>
   
