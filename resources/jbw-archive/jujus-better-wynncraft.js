@@ -54,6 +54,7 @@ function updateArchiveOptions() {
         versionSection.options[versionSection.options.length] = new Option("Select Version", "");
         versionSection.options[versionSection.options.length] = new Option("v2.0", "v2.0");
         versionSection.options[versionSection.options.length] = new Option("v2.1", "v2.1");
+        versionSection.options[versionSection.options.length] = new Option("v2.2", "v2.2");
 
         modLoaderSection.options.length = 0;
         modLoaderSection.options[modLoaderSection.options.length] = new Option("Select Mod Loader", "");

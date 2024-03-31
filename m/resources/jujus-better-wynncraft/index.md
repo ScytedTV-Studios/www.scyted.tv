@@ -91,18 +91,20 @@ type: resources
 
             <h4>Mods</h4>
 
-            <li>Cloth Config API</li>
-            <li>Controlling</li>
-            <li>Fabric API</li>
-            <li>Fabric Language Kotlin</li>
-            <li>Iris Shaders</li>
-            <li>FPS Reducer</li>
-            <li>Searchables</li>
-            <li>Sodium</li>
-            <li>Sodium Extra</li>
-            <li>Voices of Wynn</li>
-            <li>Wynntils</li>
-            <li>YetAnotherConfigLib</li>
+            <li>Voices of Wynn (by kmaxii)</li>
+<li>Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)</li>
+<li>Fresh Animations (by Fresh__LX)</li>
+<li>Searchables (by Jaredlll08)</li>
+<li>Sodium Extra (by FlashyReese)</li>
+<li>YetAnotherConfigLib (by XanderIsDev)</li>
+<li>[EMF] Entity Model Features [Fabric & Forge] (by traben_0)</li>
+<li>[ETF] Entity Texture Features - [Fabric & Forge] (by traben_0)</li>
+<li>Controlling (by Jaredlll08)</li>
+<li>Fabric API (by modmuss50)</li>
+<li>FPS Reducer (by bre2el)</li>
+<li>Wynntils (by Scyu_)</li>
+<li>Fabric Language Kotlin (by modmuss50)</li>
+
         </div>
 
 
@@ -113,31 +115,45 @@ type: resources
 
             <h4>Mods</h4>
 
-            <p>Includes everything from Essentials, Plus:</p>
-
-            <li>AmbientSounds 5</li>
-            <li>Athena</li>
-            <li>Better Third Person</li>
-            <li>Capes</li>
-            <li>CompleteConfig</li>
-            <li>CreativeCore</li>
-            <li>Debugify</li>
-            <li>Enhanced Block Entities</li>
-            <li>Entity Texture Features</li>
-            <li>Falling Leaves</li>
-            <li>FerriteCore</li>
-            <li>Indium</li>
-            <li>Krypton</li>
-            <li>LazyDFU</li>
-            <li>Lithium</li>
-            <li>Mouse Tweaks</li>
-            <li>Not Enough Animations</li>
-            <li>Physics Mod</li>
-            <li>Skin Layers 3D</li>
-            <li>Sound Physics Remastered</li>
-            <li>Starlight</li>
-            <li>YDM's Weapon Master</li>
-            <li>Zoomify</li>
+            <li>Sound Physics Remastered (by henkelmax)</li>
+<li>Skin Layers 3D (Fabric/Forge) (by tr7zw)</li>
+<li>Sodium Extra (by FlashyReese)</li>
+<li>Controlling (by Jaredlll08)</li>
+<li>FPS Reducer (by bre2el)</li>
+<li>Capes [Fabric/Forge] (by Cael)</li>
+<li>Krypton (by tuxed)</li>
+<li>Dynamic Sound Filters (by andre111_)</li>
+<li>CreativeCore (by CreativeMD)</li>
+<li>AmbientSounds 5 (by CreativeMD)</li>
+<li>Searchables (by Jaredlll08)</li>
+<li>FerriteCore (Fabric) (by malte0811)</li>
+<li>Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)</li>
+<li>Controlify (by XanderIsDev)</li>
+<li>Athena (by CodexAdrian)</li>
+<li>Fabric API (by modmuss50)</li>
+<li>Wynntils (by Scyu_)</li>
+<li>Zoomify (by XanderIsDev)</li>
+<li>Better Third Person (by Socolio)</li>
+<li>Enhanced Block Entities (by FoundationGames)</li>
+<li>Debugify (by XanderIsDev)</li>
+<li>Falling Leaves (Fabric) (by RandomMcSomethin)</li>
+<li>Not Enough Animations (by tr7zw)</li>
+<li>[ETF] Entity Texture Features - [Fabric & Forge] (by traben_0)</li>
+<li>Voices of Wynn (by kmaxii)</li>
+<li>CompleteConfig (by Lortseam_)</li>
+<li>Mod Menu (by Prospector)</li>
+<li>Fabric Language Kotlin (by modmuss50)</li>
+<li>[EMF] Entity Model Features [Fabric & Forge] (by traben_0)</li>
+<li>Starlight (Fabric) (by Spottedstar)</li>
+<li>Indium (by comp500)</li>
+<li>YDM's Weapon Master (by YourDailyModderx)</li>
+<li>Sodium (by jellysquid3_)</li>
+<li>Mouse Tweaks (by YaLTeR)</li>
+<li>YetAnotherConfigLib (by XanderIsDev)</li>
+<li>Lithium (Fabric) (by jellysquid3_)</li>
+<li>LazyDFU (by tuxed)</li>
+<li>First-person Model (Forge/Fabric) (by tr7zw)</li>
+<li>Fresh Animations (by Fresh__LX)</li>
 
         </div>
 
@@ -149,25 +165,62 @@ type: resources
 
             <h4>Mods</h4>
 
-            <p>Includes everything from Essentials and Extras, Plus:</p>
+            <li>Skin Layers 3D (Fabric/Forge) (by tr7zw)</li>
+<li>Controlling (by Jaredlll08)</li>
+<li>Indium (by comp500)</li>
+<li>[ETF] Entity Texture Features - [Fabric & Forge] (by traben_0)</li>
+<li>Enhanced Block Entities (by FoundationGames)</li>
+<li>Sodium Extra (by FlashyReese)</li>
+<li>Physics Mod (by haubna)</li>
+<li>Visuality (by PinkGoosik)</li>
+<li>LazyDFU (by tuxed)</li>
+<li>Not Enough Animations (by tr7zw)</li>
+<li>Shoulder Surfing Reloaded (by ForgeUser21552638)</li>
+<li>[EMF] Entity Model Features [Fabric & Forge] (by traben_0)</li>
+<li>Wynntils (by Scyu)</li>
+<li>FPS Reducer (by bre2el)</li>
+<li>Starlight (Fabric) (by Spottedstar)</li>
+<li>Wavey Capes (by tr7zw)</li>
+<li>Replay Mod (Fabric & Forge) (by luks_gamer99)</li>
+<li>Fabric API (by modmuss50)</li>
+<li>Entity View Distance (by Patbox)</li>
+<li>Controlify (by XanderIsDev)</li>
+<li>Better Third Person (by Socolio)</li>
+<li>Satin API (by PyrofabTheModsmith)</li>
+<li>Searchables (by Jaredlll08)</li>
+<li>Cloth Config API (Fabric/Forge/NeoForge) (by shedaniel)</li>
+<li>CreativeCore (by CreativeMD)</li>
+<li>Lithium (Fabric) (by jellysquid3_)</li>
+<li>Athena (by CodexAdrian)</li>
+<li>M.R.U (by itsmineblock11)</li>
+<li>CompleteConfig (by Lortseam_)</li>
+<li>First-person Model (Forge/Fabric) (by tr7zw)</li>
+<li>Better Beds (by Motschen)</li>
+<li>AvoMod (by mrFinally)</li>
+<li>Fabric Language Kotlin (by modmuss50)</li>
+<li>ShowMeMyDPS! (by soramame_256)</li>
+<li>YDM's Weapon Master (by YourDailyModderx)</li>
+<li>Show Me Your Skin! (Hide armor) (by enjarai)</li>
+<li>FerriteCore (Fabric) (by malte0811)</li>
+<li>Capes [Fabric/Forge] (by Cael)</li>
+<li>Sound Physics Remastered (by henkelmax)</li>
+<li>Sodium (by jellysquid3_)</li>
+<li>Forge Config API Port (by Fuzs)</li>
+<li>Fresh Animations (by Fresh__LX)</li>
+<li>Voices of Wynn (by kmaxii)</li>
+<li>CIT Resewn JSONLagPatch (by Mithaldu)</li>
+<li>Falling Leaves (Fabric) (by RandomMcSomethin)</li>
+<li>AmbientSounds 5 (by CreativeMD)</li>
+<li>Mod Menu (by Prospector)</li>
+<li>Zoomify (by XanderIsDev)</li>
+<li>YetAnotherConfigLib (by XanderIsDev)</li>
+<li>Reese's Sodium Options (by FlashyReese)</li>
+<li>Inventory HUD+ (by dmitrylovin)</li>
+<li>Krypton (by tuxed)</li>
+<li>Debugify (by XanderIsDev)</li>
+<li>Mouse Tweaks (by YaLTeR)</li>
+<li>Blur (Fabric) (by Motschen)</li>
 
-            <li>Avomod</li>
-            <li>Better Beds</li>
-            <li>Blur</li>
-            <li>CIT Resewn</li>
-            <li>Don't Clear Chat History</li>
-            <li>Entity View Distance</li>
-            <li>Inventory HUD+</li>
-            <li>More Chat History</li>
-            <li>Reese's Sodium Options</li>
-            <li>Replay Mod</li>
-            <li>Satin API</li>
-            <li>Shoulder Surfing Reloaded</li>
-            <li>Show Me Your Skin</li>
-            <li>ShowMeMyDPS!</li>
-            <li>Sounds</li>
-            <li>Visuality</li>
-            <li>Wavey Capes</li>
         </div>
 
 
