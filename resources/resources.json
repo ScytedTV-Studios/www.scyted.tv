@@ -40,6 +40,12 @@
         "title": "JBW Beta",
         "description": "JuJu's Better Wynncraft Beta.",
         "resourceUrl": "jbw-beta"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-gtav.jpg",
+        "title": "GTA V Achievements",
+        "description": "Loyd's Grand Theft Auto V achievement tracking.",
+        "resourceUrl": "loyd-gtav"
     }
   ]
   
