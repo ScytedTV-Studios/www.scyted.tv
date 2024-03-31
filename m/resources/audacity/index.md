@@ -33,7 +33,7 @@ type: resources
 
   <div class="resource-info-box">
     <img src="https://cdn.scyted.tv/website-assets/resource-portal/logos/audacity.jpg" alt="Resource Image" class="resource-image">
-    <h3>Clean Audio</h3>
+    <h3>Clean Audio in Audacity</h3>
     These are some good settings to help clean up microphone audio in Audacity.<br>
     <br>
     <em>Source: <a href="https://www.reddit.com/r/letsplay/comments/40gzmh/comment/cyu2dwc" class="url">reddit.com</a></em>
