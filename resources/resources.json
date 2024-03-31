@@ -52,6 +52,12 @@
         "title": "Watch & Download PD Videos",
         "description": "Watch Pixeldrain videos, save your watch position, and bypass download restrictions.",
         "resourceUrl": "pixeldrain"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/audacity.jpg",
+        "title": "Clean Audio in Audacity",
+        "description": "These are some good settings to help clean up microphone audio in Audacity.",
+        "resourceUrl": "audacity"
     }
   ]
   
