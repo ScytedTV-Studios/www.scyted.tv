@@ -52,6 +52,12 @@
         "title": "Minecraft PS3 Achievements",
         "description": "Loyd's Minecraft PS3 achievement tracking.",
         "resourceUrl": "loyd-minecraft-ps3"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/pixeldrain.jpg",
+        "title": "Watch & Download PD Videos",
+        "description": "Watch Pixeldrain videos, save your watch position, and bypass download restrictions.",
+        "resourceUrl": "pixeldrain"
     }
   ]
   
