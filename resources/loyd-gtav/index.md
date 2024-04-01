@@ -156,6 +156,12 @@ type: resources
     color: #1a0180; /* Changed to dark gray */
     z-index: 1;
   }
+   .achievements-container img {
+    min-width: 112px;
+    min-height: 112px;
+    max-width: 112px;
+    max-height: 112px;
+  }
 </style>
 <div class="container">
 

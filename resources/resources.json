@@ -58,6 +58,12 @@
         "title": "Clean Audio in Audacity",
         "description": "These are some good settings to help clean up microphone audio in Audacity.",
         "resourceUrl": "audacity"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-phasmophobia.jpg",
+        "title": "Phasmophobia Achievements",
+        "description": "Loyd's Phasmophobia achievement tracking.",
+        "resourceUrl": "loyd-phasmophobia"
     }
   ]
   

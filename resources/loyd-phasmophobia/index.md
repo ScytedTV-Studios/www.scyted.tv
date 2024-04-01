@@ -33,9 +33,9 @@ type: resources
   <div class="resource-back" onclick="backButton()"><p>← back</p></div>
 
   <div class="resource-info-box">
-    <img src="https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-minecraft-ps3.jpg" alt="Resource Image" class="resource-image">
-    <h3>Minecraft PS3 Achievements</h3>
-    Loyd's Minecraft PS3 achievement tracking.<br>
+    <img src="https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-phasmophobia.jpg" alt="Resource Image" class="resource-image">
+    <h3>Phasmophobia Achievements</h3>
+    Loyd's Phasmophobia achievement tracking.<br>
   </div>
   
   </div>
@@ -167,9 +167,9 @@ type: resources
 
 <div class="user-info-box" id="userInfoBox">
 
-<h3>Minecraft PS3 Achievements</h3>
+<h3>Phasmophobia Achievements</h3>
 
-I'm someone who really enjoys collecting achievements and trophies from games. Some games I am attempting to get every acahievement possible. This page specifically targets my progress on the PlayStation 3 version of Minecraft. Below is the entire list of all of my achievements on the game that I update periodically.
+I'm someone who really enjoys collecting achievements and trophies from games. Some games I am attempting to get every acahievement possible. This page specifically targets my progress on the PC version of Phasmophobia. Below is the entire list of all of my achievements on the game that I update periodically.
 
 <br><br>
 
