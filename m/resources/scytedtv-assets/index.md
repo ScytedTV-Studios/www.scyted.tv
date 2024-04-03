@@ -26,7 +26,7 @@ type: resources
   <div class="resource-back" onclick="backButton()"><p>← back</p></div>
 
   <div class="resource-info-box">
-    <img src="https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg" alt="Resource Image" class="resource-image">
+    <img src="https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv.jpg" alt="Resource Image" class="resource-image">
     <h3>ScytedTV Assets</h3>
     Download official ScytedTV Assets such as logos, branding images, etc.
   </div>
