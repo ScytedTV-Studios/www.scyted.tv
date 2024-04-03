@@ -5,7 +5,8 @@ type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/the-universe.jpg"
 description: Looking for writers!
 tags:
-- Casting
+- Loyd Osborne
+- Olivia Alvarez
 ---
 
 *We have a pre-recorded story for the first season and we need some writers to help take this pre-recorded audio and write it into a script so we can get proper voice actors to record the lines.*

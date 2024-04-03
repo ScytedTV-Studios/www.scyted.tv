@@ -5,7 +5,7 @@ type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/extra-extra.jpg"
 description: Looking for writers!
 tags:
-- Casting
+- Loyd Osborne
 ---
 
 *We’re looking for writers to help write our upcoming news show, "Extra, Extra!".*
