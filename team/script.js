@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch resource data from JSON file (Assuming resources.json is the name)
-    fetch('management.json')
+    fetch('team.json')
       .then(response => response.json())
       .then(data => {
         const grid = document.getElementById('resource-grid');
