@@ -6,6 +6,16 @@ description: The official ScytedTV Show Release Schedule.
 ---
 
 <style>
+    hr.has-background-black {
+        display: none;
+    }
+
+    h1.title {
+        display: none;
+    }
+</style>
+
+<style>
         .styled-calendar-container {
             width: 100%;
             border: none;
@@ -18,6 +28,7 @@ description: The official ScytedTV Show Release Schedule.
                 flex-grow: 1;
             }
         }
+    
     </style>
 
 <iframe id="calendar-iframe" src="https://embed.styledcalendar.com/#bCwvC47Y17egiZWCApEq" title="ScytedTV Calendar"
