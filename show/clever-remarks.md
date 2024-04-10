@@ -10,6 +10,6 @@ description: The Game Show where we answer some of the world's silliest question
 <p>Coming to ScytedTV in 2024!</p>
 <div class="video-grid" id="video-grid" data-playlist-id="PLYdXesedYII5q5Bc1O-OFsBV8LU-3uepK"></div>
 
-<h4>Check out casting opportunities at <a href= "https://www.scyted.tv/casting/clever-remarks" target="_blank">scyted.tv/casting/clever-remarks</a>!</h4>
+<h4>Check out casting opportunities at <a href= "https://www.scyted.tv/blog/clever-remarks" target="_blank">scyted.tv/blog/clever-remarks</a>!</h4>
 
 <script src="show-scripts.js"></script>

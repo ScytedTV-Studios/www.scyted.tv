@@ -1,7 +1,7 @@
 ---
-title: Crew
+title: Cast & Crew
 layout: page
-type: crew
+type: cast-and-crew
 ---
 <style>
     hr.has-background-black {
