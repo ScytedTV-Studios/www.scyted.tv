@@ -20,7 +20,7 @@ type: reads
   <div id="error-message" style="color: red;">
     ScytedTV Resources isn't currently available to mobile users at this time.
   </div>
-</div> --> -->
+</div> -->
 
 <style>
 
@@ -35,6 +35,8 @@ type: reads
     <input type="text" class="search-bar" placeholder="Search stories...">
   </div>
 
+<!-- <div id="nameChange"></div> -->
+
 <div class="grid" id="resource-grid">
   <!-- Resources will be dynamically added here -->
 </div>
@@ -43,5 +45,6 @@ type: reads
 
 <!-- <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script> -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
+<script src="https://api.scyted.tv/website/reads-api/nameChange.js"></script>
 
 </body>
