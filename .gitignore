@@ -10,7 +10,7 @@ _site/
 discussions/
 making-coffee/
 .env
-reads/
+# reads/
 index-maintenance.html
 404-maintenance.html
 test-page.md
