@@ -64,6 +64,12 @@
         "title": "Phasmophobia Achievements",
         "description": "Loyd's Phasmophobia achievement tracking.",
         "resourceUrl": "loyd-phasmophobia"
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/flipline-studios-flash-archive.png",
+        "title": "Flipline Studios Flash Archive",
+        "description": "This is a complete archive of Flipline Studio's Flash Games that you can download and play.",
+        "resourceUrl": "https://github.com/ScytedTV-Studios/Flipline-Studios-Flash-Archive"
     }
   ]
   
