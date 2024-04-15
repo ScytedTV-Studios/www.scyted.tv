@@ -12,13 +12,7 @@
         "resourceUrl": "jujus-better-wynncraft"
     },
     {
-        "imageUrl": "https://cdn.scyted.tv/discord-wave/wave.jpg",
-        "title": "Wave 24/7",
-        "description": "Discord Music Bot, 24/7 Music, Custom Genres, Seasonal Events, Quick Support, and More!",
-        "resourceUrl": "wave"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/discord-levlr/levlr.png",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/levlr.jpg",
         "title": "Levlr",
         "description": "A global leveling bot that combines your levels across all the servers Levlr is in.",
         "resourceUrl": "levlr"
@@ -36,18 +30,6 @@
         "resourceUrl": "jbw-archive"
     },
     {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-gtav.jpg",
-        "title": "GTA V Achievements",
-        "description": "Loyd's Grand Theft Auto V achievement tracking.",
-        "resourceUrl": "loyd-gtav"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-minecraft-ps3.jpg",
-        "title": "Minecraft PS3 Achievements",
-        "description": "Loyd's Minecraft PS3 achievement tracking.",
-        "resourceUrl": "loyd-minecraft-ps3"
-    },
-    {
         "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/pixeldrain.jpg",
         "title": "Watch & Download PD Videos",
         "description": "Watch Pixeldrain videos, save your watch position, and bypass download restrictions.",
@@ -58,12 +40,6 @@
         "title": "Clean Audio in Audacity",
         "description": "These are some good settings to help clean up microphone audio in Audacity.",
         "resourceUrl": "audacity"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/loyd-phasmophobia.jpg",
-        "title": "Phasmophobia Achievements",
-        "description": "Loyd's Phasmophobia achievement tracking.",
-        "resourceUrl": "loyd-phasmophobia"
     },
     {
         "imageUrl": "https://cdn.scyted.tv/website-assets/resource-portal/logos/flipline-studios-flash-archive.png",
