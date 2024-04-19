@@ -40,6 +40,9 @@ function displayContents(userData) {
     </style>
     <div class="container">
     <div class="user-info-container">
+    <div class="user-info-box userInfoBox" id="userInfoBox4">
+        <p>Loading...</p>
+    </div>
     <div class="user-info-box userInfoBox" id="userInfoBox3">
         <p>Loading...</p>
     </div>
