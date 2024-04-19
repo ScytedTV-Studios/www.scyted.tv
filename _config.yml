@@ -6,7 +6,7 @@ url: 'https://www.scyted.tv'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
-version: 24w16u1c
+version: 24w16u1d
 
 # Title of the Site
 title: ScytedTV Studios
