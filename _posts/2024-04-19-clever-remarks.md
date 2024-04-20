@@ -1,14 +1,15 @@
 ---
-title: Clever Remarks (Season 1)
+title: Casting Clever Remarks (Season 2)
 layout: post
 type: blog
 post-image: "https://cdn.scyted.tv/website-assets/casting-calls/clever-remarks.jpg"
 description: The Game Show where we answer some of the world's silliest questions.
 tags:
-- Casting
+- Loyd Osborne
+- CASTING
 ---
 
-> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
+Since Clever Remarks Season 1 is currently in post-production, we are now able to start casting for the second season of the show. More information will be coming as we start to cast this next season. If you are interested in being on the show, please reach out at <a href="mailto:casting@scyted.tv">casting@scyted.tv</a>, or any other route such as Casting Call Club, contacting Loyd, etc.
 
 ## Show Description:
 
@@ -16,16 +17,10 @@ The contestants of Clever Remarks are given a series of random questions that do
 
 In between each round there will be minigames that will grant extra points to the players. The final round of the game includes some opinion-based questions that are sometimes controversial (not counting towards any points) to spark some debate.
 
-<br>
-> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
-
 ## Requirements:
 - Must use a camera and microphone.
 - Must be okay with using your legal First and Last Name.
 - Must have Discord for recording and planning.
-
-<br>
-> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
 
 ## Frequently Asked Questions:
 
@@ -57,6 +52,3 @@ A: For comedy value, some of the questions we ask can be NSFW; although some mor
 **Q: When will my episode be release?**
 <br>
 A: Whenever the rest of the season is finished. We will keep you updated on any important things, as well as provide you with private previews of your episode when it is in the final stages of post-production, in which case you can provide feedback and recommend changes.
-<br><br>
-
-> **All casting for Clever Remarks Season 1 has been completed. We are no longer accepting new applicants.**
