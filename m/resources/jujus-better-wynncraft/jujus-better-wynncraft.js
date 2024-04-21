@@ -1,5 +1,5 @@
 // LATEST VERSION DOWNLOAD
-const latestVersion = "v2.2";
+const latestVersion = "v2.3";
 
 document.addEventListener('DOMContentLoaded', function () {
     var packOptions = ["Essentials", "Extras", "Extreme"];
