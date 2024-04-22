@@ -56,6 +56,32 @@ type: resources
                 changes.</p>
         </div>
 
+<div class="user-info-box" id="userInfoBox">
+<style>
+  .button-container {
+    text-align: center; /* Center the buttons horizontally */
+  }
+  .button-image {
+    display: inline-block; /* Display the images inline */
+    border-radius: 10px; /* Adjust the value to change the roundness of corners */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the values to change the shadow */
+    cursor: pointer;
+    max-height: 55px; /* Adjust the value to set the maximum height */
+    width: auto;
+    margin: 0 5px; /* Add some margin between the buttons */
+    padding: 0; /* Remove any default padding */
+    vertical-align: middle; /* Align the images vertically */
+  }
+</style>
+<div class="button-container">
+<a href="https://modrinth.com/modpack/jujus-better-wynncraft">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/modrinth.jpg" alt="Modrinth">
+</a>
+<!-- <a href="https://legacy.curseforge.com/minecraft/modpacks/jujus-better-wynncraft">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/curseforge.jpg" alt="CurseForge">
+</a> -->
+</div>
+</div>
 
         <div class="user-info-box" id="userInfoBox">
             <h2>DOWNLOAD LATEST</h2>
