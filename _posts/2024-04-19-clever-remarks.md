@@ -26,7 +26,7 @@ In between each round there will be minigames that will grant extra points to th
 
 **Q: Is this a paid project?**
 <br>
-A: No, it is not. Our Studio does not have any source of income at the moment and cannot pay anyone. Everone is purely here on a volunteer basis and doing it for fun, experience, or for portfolio material.
+A: No, it is not. Our Studio does not have any source of income at the moment and cannot pay anyone. Everyone is purely here on a volunteer basis and doing it for fun, experience, or for portfolio material.
 <br><br>
 
 **Q: How is it recorded?**
