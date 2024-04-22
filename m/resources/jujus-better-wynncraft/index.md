@@ -68,7 +68,7 @@ type: resources
     cursor: pointer;
     max-height: 55px; /* Adjust the value to set the maximum height */
     width: auto;
-    margin: 0 5px; /* Add some margin between the buttons */
+    margin: 5px; /* Add some margin between the buttons */
     padding: 0; /* Remove any default padding */
     vertical-align: middle; /* Align the images vertically */
   }
@@ -77,11 +77,18 @@ type: resources
 <a href="https://modrinth.com/modpack/jujus-better-wynncraft">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/modrinth.jpg" alt="Modrinth">
 </a>
+<a href="https://gdlauncher.com/">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/gdlauncher.jpg" alt="GDLauncher">
+</a>
+<a href="https://prismlauncher.org/download/">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/prism.jpg" alt="Prism Launcher">
+</a>
 <!-- <a href="https://legacy.curseforge.com/minecraft/modpacks/jujus-better-wynncraft">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/curseforge.jpg" alt="CurseForge">
 </a> -->
 </div>
 </div>
+<div class="user-info-box" id="userInfoBox">
 
         <div class="user-info-box" id="userInfoBox">
             <h2>DOWNLOAD LATEST</h2>
