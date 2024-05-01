@@ -24,9 +24,15 @@
         "resourceUrl": ""
     },
     {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/quinn.jpg",
         "title": "Quinn",
         "description": "Producer",
+        "resourceUrl": ""
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "title": "",
+        "description": "",
         "resourceUrl": ""
     }
   ]
