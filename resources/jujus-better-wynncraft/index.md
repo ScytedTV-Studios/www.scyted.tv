@@ -81,18 +81,18 @@ type: resources
   }
 </style>
 <div class="button-container">
-<a href="https://modrinth.com/modpack/jujus-better-wynncraft">
+<a href="https://modrinth.com/collection/9IenzBF9/modpacks">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/modrinth.jpg" alt="Modrinth">
 </a>
-<a href="https://gdlauncher.com/">
+<!-- <a href="https://gdlauncher.com/">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/gdlauncher.jpg" alt="GDLauncher">
-</a>
-<a href="https://prismlauncher.org/download/">
-  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/prism.jpg" alt="Prism Launcher">
-</a>
-<!-- <a href="https://legacy.curseforge.com/minecraft/modpacks/jujus-better-wynncraft">
-  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/curseforge.jpg" alt="CurseForge">
 </a> -->
+<!-- <a href="https://prismlauncher.org/download/">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/prism.jpg" alt="Prism Launcher">
+</a> -->
+<a href="https://legacy.curseforge.com/minecraft/modpacks/jujus-better-wynncraft">
+  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/curseforge.jpg" alt="CurseForge">
+</a>
 </div>
 </div>
 
