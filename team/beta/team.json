@@ -52,6 +52,18 @@
         "title": "Kamal",
         "description": "Cast Member",
         "resourceUrl": ""
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/aj.jpg",
+        "title": "AJ",
+        "description": "Cast Member",
+        "resourceUrl": ""
+    },
+    {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/hadrian.jpg",
+        "title": "Hadrian",
+        "description": "Cast Member",
+        "resourceUrl": ""
     }
   ]
   
