@@ -25,7 +25,7 @@ type: team
 </style>
 
 <div class="banner">
-    <h1>Cast & Crew</h1>
+    <h1>Team</h1>
     <input type="text" class="search-bar" placeholder="Search team members...">
   </div>
 
