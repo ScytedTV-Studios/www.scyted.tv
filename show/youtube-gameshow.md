@@ -8,8 +8,8 @@ description:
 <h3>Limited Series</h3>
 Episodic Order
 
-**This show has been cancelled and is no longer receiving new episodes.**
+**This show has been cancelled and is no longer receiving new episodes and has been archived. You can find this show on <a href="https://www.patreon.com/collection/264374" target="_blank">Patreon</a>.**
 
-<div class="video-grid" id="video-grid" data-playlist-id="PL5irix3qFbXOqmen0bLZGUD2DqX_h6jAj"></div>
+
 
 <script src="show-scripts.js"></script>
