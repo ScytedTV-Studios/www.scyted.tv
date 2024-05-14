@@ -22,6 +22,26 @@ In between each round there will be minigames that will grant extra points to th
 - Must be okay with using your legal First and Last Name.
 - Must have Discord for recording and planning.
 
+## Schedule an audition:
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0zbN5WuTz94PFLlBzkchPcriaSvNnZzt7dGCituSAZUpFFmY0Z3n41Mmr5LagnX8FFIs7DMxSx?gv=true',
+      color: '#039BE5',
+      label: 'Schedule',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
 ## Frequently Asked Questions:
 
 **Q: Is this a paid project?**
