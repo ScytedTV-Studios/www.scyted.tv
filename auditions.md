@@ -95,6 +95,23 @@ description: Find all shows currently auditioning for new cast members.
 })();
 </script>
 <!-- end Google Calendar Appointment Scheduling -->
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://forms.gle/c7gVMRCSTjdKXuoN6',
+      color: '#039BE5',
+      label: 'Become A Writer',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
                 </div>
             </div>
         </div>

@@ -22,26 +22,6 @@ In between each round there will be minigames that will grant extra points to th
 - Must be okay with using your legal First and Last Name.
 - Must have Discord for recording and planning.
 
-## Schedule an audition:
-
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0zbN5WuTz94PFLlBzkchPcriaSvNnZzt7dGCituSAZUpFFmY0Z3n41Mmr5LagnX8FFIs7DMxSx?gv=true',
-      color: '#039BE5',
-      label: 'Schedule',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
-
 ## Frequently Asked Questions:
 
 **Q: Is this a paid project?**
@@ -76,3 +56,25 @@ A: Whenever the rest of the season is finished. We will keep you updated on any 
 <!-- <br>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesMuu93XFEzVLuHTWT7k7e9JdLvSpgpjyFk-7HgiT51HXHMA/viewform?embedded=true" width="50%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+## Schedule an audition:
+
+Now that you've read through what Clever Remarks is all about, it's time to schedule an audition with Loyd (Host) and Quinn (Producer)!
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0zbN5WuTz94PFLlBzkchPcriaSvNnZzt7dGCituSAZUpFFmY0Z3n41Mmr5LagnX8FFIs7DMxSx?gv=true',
+      color: '#039BE5',
+      label: 'Schedule Audition',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
