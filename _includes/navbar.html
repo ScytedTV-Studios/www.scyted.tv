@@ -24,10 +24,19 @@
                     href="{{site.url}}{{site.baseurl}}/discussions">DISCUSSIONS [beta]</a> -->
                 <a class="navbar-item {% if page.type == 'team' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/team">Team</a>
-                    
-                    {% include content-dropdown.html %}
+
+                {% include content-dropdown.html %}
                 <a class="navbar-item {% if page.type == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">Blog</a>
+
+                <style>
+                    auditions {
+                        color: #ffea00;
+                    }
+                </style>
+
+                <a class="navbar-item auditions {% if page.type == 'auditions' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/auditions">Auditions</a>
             </div>
         </div>
     </div>
