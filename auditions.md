@@ -72,7 +72,7 @@ description: Find all shows currently auditioning for new cast members.
             </div>
             <div class="box has-background-white-ter">
                 <div class="image-featured">
-                    <img src="https://cdn.scyted.tv/website-assets/show-banners/clever-remarks.jpg" alt="Title 1">
+                    <img src="https://cdn.scyted.tv/website-assets/show-banners/clever-remarks.jpg" alt="Clever Remarks">
                 </div>
                 <div class="content">
                     <h2>Clever Remarks (Season 2)</h2>
