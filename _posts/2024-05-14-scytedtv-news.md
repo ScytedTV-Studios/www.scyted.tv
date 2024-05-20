@@ -24,7 +24,7 @@ If you’re worried about the script not being good enough, don't be! We can hel
 
 **Writer:**
 
-Please write a script about anything that interests you that is internet, gaming or anime related. (For example : Like a new season of an anime comes out that you like, or a game you like got a cool update.) Using a similar format to any of the news stories in the video linked above! Also please include your Discord username in your application (not your display name - your username). ! If you don't feel comfortable with putting it on here, send it to our messages!
+Please leave a script or piece of writing you've done! Also please include your Discord username in your application (not your display name - your username). If you don't feel comfortable with putting it on here, send it to our messages!
 
 <body>
 
