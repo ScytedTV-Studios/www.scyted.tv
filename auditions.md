@@ -103,7 +103,7 @@ description: Find all shows currently auditioning for new cast members.
   var target = document.currentScript;
   window.addEventListener('load', function() {
     calendar.schedulingButton.load({
-      url: 'https://forms.gle/c7gVMRCSTjdKXuoN6',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSeSbF81EjWCwG-HYUNPo1n69Rbo1A3zwtPR5iKgIrXQtFevsA/viewform?usp=pp_url&entry.149857424=Discord+Profile&entry.1952398262=ScytedTV+Auditions+Page',
       color: '#039BE5',
       label: 'Become A Writer',
       target,
