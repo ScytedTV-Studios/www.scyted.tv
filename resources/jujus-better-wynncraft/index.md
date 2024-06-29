@@ -84,13 +84,7 @@ type: resources
 <a href="https://modrinth.com/collection/9IenzBF9/modpacks">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/modrinth.jpg" alt="Modrinth">
 </a>
-<!-- <a href="https://gdlauncher.com/">
-  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/gdlauncher.jpg" alt="GDLauncher">
-</a> -->
-<!-- <a href="https://prismlauncher.org/download/">
-  <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/prism.jpg" alt="Prism Launcher">
-</a> -->
-<a href="https://legacy.curseforge.com/minecraft/modpacks/jujus-better-wynncraft">
+<a href="https://www.curseforge.com/members/scytedtv/projects">
   <img class="button-image" src="https://cdn.scyted.tv/jujus-better-wynncraft/curseforge.jpg" alt="CurseForge">
 </a>
 </div>
@@ -171,7 +165,6 @@ type: resources
 <li>Athena (by CodexAdrian)</li>
 <li>Fabric API (by modmuss50)</li>
 <li>Wynntils (by Scyu_)</li>
-<li>Zoomify (by XanderIsDev)</li>
 <li>Better Third Person (by Socolio)</li>
 <li>Enhanced Block Entities (by FoundationGames)</li>
 <li>Debugify (by XanderIsDev)</li>
@@ -191,7 +184,7 @@ type: resources
 <li>YetAnotherConfigLib (by XanderIsDev)</li>
 <li>Lithium (Fabric) (by jellysquid3_)</li>
 <li>LazyDFU (by tuxed)</li>
-<li>First-person Model (Forge/Fabric) (by tr7zw)</li>
+<li>Real Camera (by xTracr)</li>
 <li>Fresh Animations (by Fresh__LX)</li>
 
         </div>
@@ -233,7 +226,7 @@ type: resources
 <li>Athena (by CodexAdrian)</li>
 <li>M.R.U (by itsmineblock11)</li>
 <li>CompleteConfig (by Lortseam_)</li>
-<li>First-person Model (Forge/Fabric) (by tr7zw)</li>
+<li>Real Camera (by xTracr)</li>
 <li>Better Beds (by Motschen)</li>
 <li>AvoMod (by mrFinally)</li>
 <li>Fabric Language Kotlin (by modmuss50)</li>
@@ -251,7 +244,6 @@ type: resources
 <li>Falling Leaves (Fabric) (by RandomMcSomethin)</li>
 <li>AmbientSounds 5 (by CreativeMD)</li>
 <li>Mod Menu (by Prospector)</li>
-<li>Zoomify (by XanderIsDev)</li>
 <li>YetAnotherConfigLib (by XanderIsDev)</li>
 <li>Reese's Sodium Options (by FlashyReese)</li>
 <li>Inventory HUD+ (by dmitrylovin)</li>
