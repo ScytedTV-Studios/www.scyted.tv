@@ -64,7 +64,7 @@ type: resources
         </div>
 
         <div class="user-info-box" id="userInfoBox">
-            <h2>DOWNLOAD BETA [v2.1]</h2>
+            <h2>DOWNLOAD BETA [v2.4]</h2>
 
             <form name="downloadForm" id="downloadForm" action="" onsubmit="return validateForm()">
                 <label for="pack">Pack:</label>
