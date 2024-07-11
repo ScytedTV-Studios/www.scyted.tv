@@ -40,6 +40,7 @@ resources/discord-auth
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/team/apply
 
 # Used by dotenv library to load environment variables.
 # .env
