@@ -184,7 +184,7 @@ fetch('https://api.scyted.tv/resources/game-tracking/loyd-shows.json')
               <p class="achievement-status">${achievement.achieved ? 'Achieved' : 'Not achieved'}</p>
               ${achievement.achieved ? `
                 <div class="achievement-date-time date-time-box">
-                  <i class="far fa-calendar-alt"></i> ${achievement.date} at ${achievement.time}
+                  <i class="far fa-calendar-alt"></i> ${achievement.date}
                 </div>
               ` : ''}
               ${achievement.type === 'Progress' ? `
