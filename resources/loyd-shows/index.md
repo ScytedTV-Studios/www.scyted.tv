@@ -169,7 +169,7 @@ type: resources
 
 <h3>Show Tracking</h3>
 
-I'm someone who really enjoys collecting achievements and trophies from games. Some games I am attempting to get every acahievement possible. This page specifically targets my progress on the PC version of Phasmophobia. Below is the entire list of all of my achievements on the game that I update periodically.
+I'm someone who really enjoys collecting achievements and trophies from games. In this case, I am treating every show I'm watching as an achievement. At the moment, I'm in the process of watching through all of my comfort shows from over the years.
 
 <br><br>
 
