@@ -18,8 +18,10 @@ function grabCallback() {
     } if (!callbackURL) {
         displayCallbackError();
     } else {
-        // Create cookie called "callback" with the URL
-        document.cookie = `callback=${callbackURL}`;
+        // Create cookie called "callback" with the URL and 24-hour expiration
+        const expires = new Date();
+        expires.setTime(expires.getTime() + 24 * 60 * 60 * 1000); // 24 hours from now
+        document.cookie = `callback=${callbackURL}; expires=${expires.toUTCString()}; path=/`;
 
         // Remove URL parameters
         window.history.replaceState({}, document.title, window.location.pathname);
