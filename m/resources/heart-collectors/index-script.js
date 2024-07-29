@@ -1,5 +1,3 @@
-const currentURL = window.location.href;
-
 function redirectToDiscord() {
     const baseURL = window.location.origin; // Extract base URL
     const AuthUrl = `${baseURL}/oauth/discord/?callbackUrl=${encodeURIComponent(currentURL)}`;
