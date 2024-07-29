@@ -1,0 +1,30 @@
+[
+    {
+        "id": "management",
+        "name": "Management"
+    },
+    {
+        "id": "producer",
+        "name": "Producers"
+    },
+    {
+        "id": "cast",
+        "name": "Cast Members"
+    },
+    {
+        "id": "voice-actor",
+        "name": "Voice Actors"
+    },
+    {
+        "id": "writer",
+        "name": "Writers"
+    },
+    {
+        "id": "video-editor",
+        "name": "Video Editors"
+    },
+    {
+        "id": "graphic-designer",
+        "name": "Graphic Designers"
+    }
+]

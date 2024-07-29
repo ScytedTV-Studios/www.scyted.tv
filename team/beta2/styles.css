@@ -1,0 +1,274 @@
+/* URL style */
+.url {
+    text-decoration: underline;
+}
+
+/* Container for each resource */
+.resource-container {
+    display: flex;
+}
+
+/* Wrapper for each resource item */
+.resource-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+/* Box style for resource info and back */
+.resource-info-box, .resource-back {
+    position: relative;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/* Back button style */
+.resource-back {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Box style for resource content */
+.resource-box {
+    position: relative;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    height: auto;
+}
+
+/* Style for user info box */
+.user-info-box {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Style for insert content */
+.insert-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Image style inside resource info box */
+.resource-info-box .resource-image {
+    position: relative;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: -15px;
+    width: 100%;
+    height: auto;
+}
+
+/* Button style */
+button {
+    background-color: #161616;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid black;
+}
+
+/* Style for login container */
+.login-container {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Style for banner */
+.banner {
+    position: relative;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Style for banner image */
+.banner-image {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 0.5px solid black;
+}
+
+/* Style for search bar */
+.search-bar {
+    margin: 20px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Grid layout for resources */
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual resource item style */
+.resource-item {
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 1;
+    background-color: #E5E5E5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.resource-item.removing {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* Keyframes for adding animation */
+@keyframes add-animation {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Fade out and fade in classes */
+.fadeOut {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Animation for resource item */
+.resource-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.single-item .resource-item {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Keyframes for fade in up animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Image style inside resource item */
+.resource-image {
+    width: 100%;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    background-color: white;
+}
+
+/* Details style inside resource item */
+.resource-details {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/* Title style inside resource item */
+.resource-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Description style inside resource item */
+.description {
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 100px;
+    transition: max-height 0.5s ease;
+}
+
+.description.expanded {
+    -webkit-line-clamp: initial;
+    max-height: 1000px;
+}
+
+/* Style for more details link */
+.more-details {
+    cursor: pointer;
+    color: blue;
+}
+
+/* Arrow style inside more details */
+.arrow {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.resource-item.expanded {
+    margin-bottom: 20px;
+}
+
+.more-details.expanded .arrow {
+    transform: rotate(180deg);
+}
+
+a {
+    color: inherit;
+}
+
+/* Category header style */
+.category-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* People grid style */
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}

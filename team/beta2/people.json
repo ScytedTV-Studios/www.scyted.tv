@@ -1,0 +1,212 @@
+[
+    {
+        "id": "loyd",
+        "name": "Loyd",
+        "description": "Cheif Executive Officer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/loyd.jpg",
+        "categories": ["management", "video-editor", "graphic-designer", "writer", "cast", "producer"]
+    },
+    {
+        "id": "olivia",
+        "name": "Olivia",
+        "description": "Chief Creative Officer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/olivia.jpg",
+        "categories": ["management", "writer", "cast", "producer"]
+    },
+    {
+        "id": "quinn",
+        "name": "Quinn",
+        "description": "Chief Media Officer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/quinn.jpg",
+        "categories": ["management", "writer", "cast", "producer"]
+    },
+    {
+        "id": "jeremy",
+        "name": "Jeremy",
+        "description": "Video Editor",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/jeremy.jpg",
+        "categories": ["video-editor", "producer", "graphic-designer"]
+    },
+    {
+        "id": "camie",
+        "name": "Camie",
+        "description": "Video Editor",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/camie.jpg",
+        "categories": ["video-editor", "cast", "producer"]
+    },
+    {
+        "id": "josh",
+        "name": "Josh",
+        "description": "Video Editor",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["video-editor", "graphic-designer"]
+    },
+    {
+        "id": "leon",
+        "name": "Leon",
+        "description": "Video Editor",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["video-editor"]
+    },
+    {
+        "id": "archi",
+        "name": "Archi",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "levi",
+        "name": "Levi",
+        "description": "Producer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["producer"]
+    },
+    {
+        "id": "keegan",
+        "name": "Keegan",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "aubrey",
+        "name": "Aubrey",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "jordan",
+        "name": "Jordan",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "oscar",
+        "name": "Oscar",
+        "description": "Writer & Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer", "cast"]
+    },
+    {
+        "id": "graham",
+        "name": "Graham",
+        "description": "Writer & Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer", "cast"]
+    },
+    {
+        "id": "aja",
+        "name": "Aja",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/aja.jpg",
+        "categories": [""]
+    },
+    {
+        "id": "connor",
+        "name": "Connor",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "kamal",
+        "name": "Kamal",
+        "description": "Writer & Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/kamal.jpg",
+        "categories": ["cast", "writer"]
+    },
+    {
+        "id": "leevi",
+        "name": "Leevi",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/leevi.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "sam",
+        "name": "Sam",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "anthony",
+        "name": "Anthony",
+        "description": "Writer & Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer", "cast"]
+    },
+    {
+        "id": "teddy",
+        "name": "Teddy",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "joseph",
+        "name": "Joseph",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "dale",
+        "name": "Dale",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "faith",
+        "name": "Faith",
+        "description": "Writer",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/no-image.jpg",
+        "categories": ["writer"]
+    },
+    {
+        "id": "corey",
+        "name": "Corey",
+        "description": "Writer & Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/corey.jpg",
+        "categories": ["cast", "writer"]
+    },
+    {
+        "id": "yaman",
+        "name": "Yaman",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/yaman.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "emmalee",
+        "name": "Emmalee",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/emmalee.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "hadrian",
+        "name": "Hadrian",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/hadrian.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "jela",
+        "name": "Jela",
+        "description": "Cast Member",
+        "imageUrl": "https://cdn.scyted.tv/website-assets/team/jela.jpg",
+        "categories": ["cast"]
+    },
+    {
+        "id": "",
+        "name": "",
+        "description": "",
+        "imageUrl": "",
+        "categories": [""]
+    }
+]
