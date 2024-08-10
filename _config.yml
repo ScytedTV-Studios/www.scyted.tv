@@ -63,7 +63,7 @@ plugins:
   - jekyll-sitemap
 
 # Permalink
-permalink: "blog/:title"
+permalink: "news/:title"
 
 # Compress
 compress_html:
