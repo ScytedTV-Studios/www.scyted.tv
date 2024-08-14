@@ -54,24 +54,15 @@ async function setupDiscordSdk() {
   if (auth == null) {
     throw new Error("Authenticate command failed");
   }
-}
-
-await discordSdk.commands.setActivity({
-  activity: { 
-    type: 0,
-    state: 'Traveling with a Group',
-    details: 'in Mainframe Map',
-    assets: {
-      large_image: 'https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg',
-      large_text: 'ScytedTV Studios',
-      small_image: 'https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-icon.png',
-      small_text: 'ScytedTV Studios'
-    },
-    timestamps: {
-      start: 1723137832
-    },
-    party: {
-      size: [2,4]
+  await discordSdk.commands.setActivity({
+    activity: { 
+      type: 2,
+      state: 'ScytedTV Activities Beta',
+      details: 'Project Power Switch',
+      assets: {
+        large_image: 'https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv.jpg',
+        large_text: 'ScytedTV Studios',
+      }
     }
-  }
-});
+  });
+}
