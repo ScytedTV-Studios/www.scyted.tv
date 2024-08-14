@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@bufferhead/nightowl": "^0.0.14",
+    "@discord/embedded-app-sdk": "^1.4.1",
     "child_process": "^1.0.2"
   }
 }
