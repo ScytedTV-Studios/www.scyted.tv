@@ -56,58 +56,22 @@ async function setupDiscordSdk() {
   }
 }
 
-document.querySelector('#app').innerHTML = `
-  
-`;
-
-async function appendVoiceChannelName() {
-  const app = document.querySelector('#app');
-
-  let activityChannelName = 'Unknown';
-
-  // Requesting the channel in GDMs (when the guild ID is null) requires
-  // the dm_channels.read scope which requires Discord approval.
-  if (discordSdk.channelId != null && discordSdk.guildId != null) {
-    // Over RPC collect info about the channel
-    const channel = await discordSdk.commands.getChannel({channel_id: discordSdk.channelId});
-    if (channel.name != null) {
-      activityChannelName = channel.name;
+await discordSdk.commands.setActivity({
+  activity: { 
+    type: 0,
+    state: 'Traveling with a Group',
+    details: 'in Mainframe Map',
+    assets: {
+      large_image: 'https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg',
+      large_text: 'ScytedTV Studios',
+      small_image: 'https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-icon.png',
+      small_text: 'ScytedTV Studios'
+    },
+    timestamps: {
+      start: 1723137832
+    },
+    party: {
+      size: [2,4]
     }
   }
-
-  // Update the UI with the name of the current voice channel
-  const textTagString = `Activity Channel: "${activityChannelName}"`;
-  const textTag = document.createElement('p');
-  textTag.textContent = textTagString;
-  app.appendChild(textTag);
-}
-
-async function appendGuildAvatar() {
-  const app = document.querySelector('#app');
-
-  // 1. From the HTTP API fetch a list of all of the user's guilds
-  const guilds = await fetch(`https://discord.com/api/v10/users/@me/guilds`, {
-    headers: {
-      // NOTE: we're using the access_token provided by the "authenticate" command
-      Authorization: `Bearer ${auth.access_token}`,
-      'Content-Type': 'application/json',
-    },
-  }).then((response) => response.json());
-
-  // 2. Find the current guild's info, including it's "icon"
-  const currentGuild = guilds.find((g) => g.id === discordSdk.guildId);
-
-  // 3. Append to the UI an img tag with the related information
-  if (currentGuild != null) {
-    const guildImg = document.createElement('img');
-    guildImg.setAttribute(
-      'src',
-      // More info on image formatting here: https://discord.com/developers/docs/reference#image-formatting
-      `https://cdn.discordapp.com/icons/${currentGuild.id}/${currentGuild.icon}.webp?size=128`
-    );
-    guildImg.setAttribute('width', '128px');
-    guildImg.setAttribute('height', '128px');
-    guildImg.setAttribute('style', 'border-radius: 50%;');
-    app.appendChild(guildImg);
-  }
-}
+});
