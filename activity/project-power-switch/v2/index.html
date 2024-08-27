@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta charset="utf-8" />
+
+  <!-- Builtin injector for disabling cache -->
+  <meta http-equiv="pragma" content="no-cache" />
+
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScytedTV Activities | Project Power Switch</title>
+
+  <style>
+    body {
+      color: #cccccc;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #000000;
+    }
+
+    canvas {
+      image-rendering: optimizeSpeed;
+      -webkit-interpolation-mode: nearest-neighbor;
+      -ms-touch-action: none;
+      touch-action: none;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      width: 100%;
+      height: auto;
+      max-width: 100vw;
+      max-height: 100vh;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+      canvas {
+        height: 100vh;
+        width: auto;
+      }
+    }
+
+    @media (max-aspect-ratio: 16/9) {
+      canvas {
+        width: 100vw;
+        height: auto;
+      }
+    }
+
+    /* Custom Runner Styles */
+    div.gm4html5_div_class {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    div.gm4html5_login {
+      padding: 20px;
+      position: absolute;
+      border: solid 2px #000000;
+      background-color: #404040;
+      color: #00ff00;
+      border-radius: 15px;
+      box-shadow: #101010 20px 20px 40px;
+    }
+
+    div.gm4html5_cancel_button {
+      float: right;
+    }
+
+    div.gm4html5_login_button {
+      float: left;
+    }
+
+    div.gm4html5_login_header {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="gm4html5_div_class" id="gm4html5_div_id">
+
+    <canvas id="canvas" width="1280" height="720">
+      <p>Your browser doesn't support HTML5 canvas.</p>
+    </canvas>
+  </div>
+
+  <script type="text/javascript" src="html5game/Project Power Switch.js?cachebust=791169935"></script>
+
+  <script>window.onload = GameMaker_Init;</script>
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
