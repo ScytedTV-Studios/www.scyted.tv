@@ -54,6 +54,12 @@
         "resourceUrl": "../../show/scytedtv-news"
     },
     {
+        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/tindalos.jpg",
+        "title": "Tindalos",
+        "description": "",
+        "resourceUrl": "../../show/tindalos"
+    },
+    {
         "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/the-universe.jpg",
         "title": "The Universe",
         "description": "",
