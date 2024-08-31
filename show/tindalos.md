@@ -2,6 +2,7 @@
 title: Tindalos
 layout: page
 type: show
+show: tindalos
 description:
 ---
 

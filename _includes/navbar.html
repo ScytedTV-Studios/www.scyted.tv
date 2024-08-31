@@ -39,8 +39,11 @@
                     }
                 </style>
 
-                <a class="navbar-item highlight {% if page.type == 'blog' %}is-active{% endif %}"
-                    href="https://news.scyted.tv/" target="_blank">News</a>
+                <a class="navbar-item highlight {% if page.show == 'tindalos' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/show/tindalos">Tindalos</a>
+
+                <!-- <a class="navbar-item highlight {% if page.type == 'blog' %}is-active{% endif %}"
+                    href="https://news.scyted.tv/" target="_blank">News</a> -->
 
                 <!-- <a class="navbar-item highlight {% if page.type == 'auditions' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/auditions">Auditions</a> -->
