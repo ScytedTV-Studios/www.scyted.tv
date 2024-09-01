@@ -5,8 +5,8 @@ type: show
 description:
 ---
 
-<h3>Season 1</h3>
-Episodic Order
-<div class="video-grid" id="video-grid" data-playlist-id="PL5irix3qFbXNDYOYdFmhGU_QceJZNCUCF"></div>
+<h3>Loyd Does Stupid Shit</h3>
+This show is no longer available to watch or listen to on any platform as we're in the process of delisting it.<br>
+This show will never be available to watch again for free or paid due to changes within the company.
 
 <script src="show-scripts.js"></script>
