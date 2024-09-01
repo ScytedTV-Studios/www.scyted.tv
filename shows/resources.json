@@ -6,46 +6,10 @@
         "resourceUrl": "../../show/clever-remarks"
     },
     {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-banners/hot-gossip.jpg",
-        "title": "Hot Gossip",
-        "description": "",
-        "resourceUrl": "../../show/hot-gossip"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/inside-mind.jpg",
-        "title": "Inside Mind",
-        "description": "",
-        "resourceUrl": "../../show/inside-mind"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/landors-shorts.jpg",
-        "title": "Landor's Shorts",
-        "description": "",
-        "resourceUrl": "../../show/landors-shorts"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-banners/loyd-does-stupid-shit.jpg",
-        "title": "Loyd Does Stupid Shit",
-        "description": "",
-        "resourceUrl": "../../show/loyd-does-stupid-shit"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/loyd-talks-about-it.jpg",
-        "title": "Loyd Talks About It",
-        "description": "",
-        "resourceUrl": "../../show/loyd-talks-about-it"
-    },
-    {
         "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/milos-life.jpg",
         "title": "Milo's Life",
         "description": "",
         "resourceUrl": "../../show/milos-life"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-gaming.jpg",
-        "title": "ScytedTV Gaming",
-        "description": "",
-        "resourceUrl": "../../show/scytedtv-gaming"
     },
     {
         "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
@@ -58,24 +22,6 @@
         "title": "Tindalos",
         "description": "",
         "resourceUrl": "../../show/tindalos"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/the-universe.jpg",
-        "title": "The Universe",
-        "description": "",
-        "resourceUrl": "../../show/the-universe"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/yeowangs-shorts.jpg",
-        "title": "Yeowang's Shorts",
-        "description": "",
-        "resourceUrl": "../../show/yeowangs-shorts"
-    },
-    {
-        "imageUrl": "https://cdn.scyted.tv/website-assets/show-square-logo/youtube-gameshow.jpg",
-        "title": "YouTube Gameshow",
-        "description": "",
-        "resourceUrl": "../../show/youtube-gameshow"
     }
   ]
   
