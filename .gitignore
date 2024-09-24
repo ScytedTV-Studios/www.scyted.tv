@@ -43,6 +43,7 @@ activity/game-night/
 /test/version_tmp/
 /tmp/
 /team/apply
+/activity/random-roleplay/fetch/credentials.json
 
 # Used by dotenv library to load environment variables.
 # .env

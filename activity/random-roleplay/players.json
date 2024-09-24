@@ -1,0 +1,36 @@
+{
+  "players": [
+    {
+      "name": "-",
+      "health": 0,
+      "currentAction": "-",
+      "actionTarget": "-",
+      "actionPoints": 0,
+      "status": "-"
+    },
+    {
+      "name": "-",
+      "health": 0,
+      "currentAction": "-",
+      "actionTarget": "-",
+      "actionPoints": 0,
+      "status": "-"
+    },
+    {
+      "name": "-",
+      "health": 0,
+      "currentAction": "-",
+      "actionTarget": "-",
+      "actionPoints": 0,
+      "status": "-"
+    },
+    {
+      "name": "-",
+      "health": 0,
+      "currentAction": "-",
+      "actionTarget": "-",
+      "actionPoints": 0,
+      "status": "-"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Stats Live Update</title>
+  <style>
+    /* Reset margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #2c2c2c;
+      font-family: Arial, sans-serif;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; /* Hide scrollbars */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      max-width: 1200px;
+    }
+
+    .players-boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      width: 100%;
+    }
+
+    .player-box {
+      position: relative;
+      background-color: #3c3c3c;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      height: 200px; /* Fixed height for player boxes */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      overflow: hidden;
+    }
+
+    .player-box.dead {
+      background-color: #b33a3a;
+    }
+
+    .player-box.updated {
+      background-color: #4a4a4a;
+    }
+
+    .player-box h2 {
+      margin-bottom: 10px;
+    }
+
+    .player-stat {
+      margin: 5px 0;
+    }
+
+    .player-box iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      border: none;
+      pointer-events: none;
+      border-radius: 10px;
+      background: transparent;
+    }
+
+    .actions-box {
+  background-color: #3c3c3c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: auto; /* Allow scrolling if necessary */
+  max-height: 600px; /* Fixed height for actions box */
+  width: 100%;
+  margin-top: 20px; /* Space between player boxes and actions box */
+}
+
+.actions-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.actions-box th, .actions-box td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+
+.actions-box th {
+  background-color: #444;
+}
+
+.actions-box td {
+  background-color: #3c3c3c;
+}
+
+.actions-box tr:nth-child(even) td {
+  background-color: #333;
+}
+
+.actions-box tr:nth-child(odd) td {
+  background-color: #3c3c3c;
+}
+
+.actions-box th, .actions-box td {
+  color: white;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Player Boxes -->
+    <div class="players-boxes">
+      <div id="player1" class="player-box">
+        <h2>Player 1</h2>
+        <div class="player-stat" id="player1-name"></div>
+        <div class="player-stat" id="player1-health"></div>
+        <div class="player-stat" id="player1-action"></div>
+        <div class="player-stat" id="player1-target"></div>
+        <div class="player-stat" id="player1-points"></div>
+        <iframe id="iframe-player1"></iframe>
+      </div>
+
+      <div id="player2" class="player-box">
+        <h2>Player 2</h2>
+        <div class="player-stat" id="player2-name"></div>
+        <div class="player-stat" id="player2-health"></div>
+        <div class="player-stat" id="player2-action"></div>
+        <div class="player-stat" id="player2-target"></div>
+        <div class="player-stat" id="player2-points"></div>
+        <iframe id="iframe-player2"></iframe>
+      </div>
+
+      <div id="player3" class="player-box">
+        <h2>Player 3</h2>
+        <div class="player-stat" id="player3-name"></div>
+        <div class="player-stat" id="player3-health"></div>
+        <div class="player-stat" id="player3-action"></div>
+        <div class="player-stat" id="player3-target"></div>
+        <div class="player-stat" id="player3-points"></div>
+        <iframe id="iframe-player3"></iframe>
+      </div>
+
+      <div id="player4" class="player-box">
+        <h2>Player 4</h2>
+        <div class="player-stat" id="player4-name"></div>
+        <div class="player-stat" id="player4-health"></div>
+        <div class="player-stat" id="player4-action"></div>
+        <div class="player-stat" id="player4-target"></div>
+        <div class="player-stat" id="player4-points"></div>
+        <iframe id="iframe-player4"></iframe>
+      </div>
+    </div>
+
+    <!-- Actions Box -->
+    <div class="actions-box">
+      <table id="actions-table">
+        <thead>
+          <tr>
+            <th>Damage</th>
+            <th>Player</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be populated by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const previousStatus = {
+      1: "",
+      2: "",
+      3: "",
+      4: ""
+    };
+  
+    async function fetchPlayerData() {
+      try {
+        const playerResponse = await fetch('players.json?' + new Date().getTime());
+        const playerData = await playerResponse.json();
+        updatePlayerStats(1, playerData.players[0]);
+        updatePlayerStats(2, playerData.players[1]);
+        updatePlayerStats(3, playerData.players[2]);
+        updatePlayerStats(4, playerData.players[3]);
+      } catch (error) {
+        console.error('Error fetching player data:', error);
+      }
+    }
+  
+    async function fetchActionsData() {
+      try {
+        const actionsResponse = await fetch('actions.json?' + new Date().getTime());
+        const actionsData = await actionsResponse.json();
+        const actions = actionsData.actions.slice(-10); // Get last 10 actions
+        updateActionsTable(actions);
+      } catch (error) {
+        console.error('Error fetching actions data:', error);
+      }
+    }
+  
+    function updatePlayerStats(playerNumber, playerData) {
+      const playerBox = document.getElementById(`player${playerNumber}`);
+      const health = playerData.health;
+  
+      const currentName = document.getElementById(`player${playerNumber}-name`).textContent;
+      const currentHealth = document.getElementById(`player${playerNumber}-health`).textContent;
+      const currentAction = document.getElementById(`player${playerNumber}-action`).textContent;
+      const currentTarget = document.getElementById(`player${playerNumber}-target`).textContent;
+      const currentPoints = document.getElementById(`player${playerNumber}-points`).textContent;
+  
+      document.getElementById(`player${playerNumber}-name`).textContent = `Name: ${playerData.name}`;
+      document.getElementById(`player${playerNumber}-health`).textContent = `Health: ${health}`;
+      document.getElementById(`player${playerNumber}-action`).textContent = `Action: ${playerData.currentAction}`;
+      document.getElementById(`player${playerNumber}-target`).textContent = `Target: ${playerData.actionTarget}`;
+      document.getElementById(`player${playerNumber}-points`).textContent = `Action Points: ${playerData.actionPoints}`;
+  
+      if (
+        currentName !== `Name: ${playerData.name}` ||
+        currentHealth !== `Health: ${health}` ||
+        currentAction !== `Action: ${playerData.currentAction}` ||
+        currentTarget !== `Target: ${playerData.actionTarget}` ||
+        currentPoints !== `Action Points: ${playerData.actionPoints}`
+      ) {
+        playerBox.classList.add('updated');
+        setTimeout(() => {
+          playerBox.classList.remove('updated');
+        }, 300);
+      }
+  
+      if (health === 0) {
+        playerBox.classList.add('dead');
+      } else {
+        playerBox.classList.remove('dead');
+      }
+  
+      const status = playerData.status;
+      if (status !== previousStatus[playerNumber]) {
+        previousStatus[playerNumber] = status;
+        const iframe = document.getElementById(`iframe-player${playerNumber}`);
+        if (status === "-") {
+          iframe.style.display = 'none';
+        } else {
+          iframe.src = `http://localhost:4000/activity/dice-roller/?notation=${status}&roll`;
+          iframe.style.display = 'block';
+        }
+      }
+    }
+  
+    function updateActionsTable(actions) {
+      const tableBody = document.querySelector('#actions-table tbody');
+      tableBody.innerHTML = '';
+  
+      // Ensure there are always 10 rows
+      const rowsToShow = 10;
+      for (let i = 0; i < rowsToShow; i++) {
+        const row = document.createElement('tr');
+        if (i < actions.length) {
+          row.innerHTML = `
+            <td>${actions[i].damage}</td>
+            <td>${actions[i].player}</td>
+            <td>${actions[i].action}</td>
+          `;
+        } else {
+          row.innerHTML = `
+            <td></td>
+            <td></td>
+            <td></td>
+          `;
+        }
+        tableBody.appendChild(row);
+      }
+    }
+  
+    function fetchData() {
+      fetchPlayerData();
+      fetchActionsData();
+    }
+  
+    fetchData(); // Initial fetch
+    setInterval(fetchData, 1000); // Fetch every second
+  </script>  
+</body>
+</html>
