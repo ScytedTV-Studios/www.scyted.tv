@@ -6,6 +6,9 @@ show: tindalos
 description:
 ---
 
+<h3>Tindalos: Rampage</h3>
+<div class="video-grid" id="video-grid" data-playlist-id="PLV0VBvplPalBViXUNws_SyxsZt3TB6zlK"></div>
+
 <h3>Tindalos: No Mercy</h3>
 <div class="video-grid" id="video-grid" data-playlist-id="PLV0VBvplPalAu9SVR8f-9pb9lIXlp__S5"></div>
 
