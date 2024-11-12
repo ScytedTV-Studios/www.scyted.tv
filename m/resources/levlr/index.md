@@ -26,7 +26,7 @@ type: resources
   <div class="resource-back" onclick="backButton()"><p>← back</p></div>
 
   <div class="resource-info-box">
-    <img src="https://cdn.scyted.tv/website-assets/resource-portal/logos/levlr.jpg" alt="Resource Image" class="resource-image">
+    <img src="https://cdn.scyted.tv/website-assets/resource-portal/logos/levlr.png" alt="Resource Image" class="resource-image">
     <h3>Levlr</h3>
     A global leveling bot that combines your levels across all the servers Levlr is in.
   </div>
