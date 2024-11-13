@@ -31,4 +31,4 @@ These Terms of Service are governed by and construed in accordance with the laws
 
 ## 6. Contact Us:
 
-If you have any questions or concerns about our Terms of Service, please contact us at [support@scyed.tv](mailto:support@scyed.tv).
+If you have any questions or concerns about our Terms of Service, please contact us at [support@scyted.tv](mailto:support@scyted.tv).

@@ -3,7 +3,7 @@ title: Privacy Policy
 layout: page
 ---
 
-# Terms of Service
+# Privacy Policy
 
 **Last Updated: January 26, 2024**
 
@@ -35,4 +35,4 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 ## 7. Contact Information:
 
-If you have any questions or concerns about our Privacy Policy, please contact us at [support@scyed.tv](mailto:support@scyed.tv).
+If you have any questions or concerns about our Privacy Policy, please contact us at [support@scyted.tv](mailto:support@scyted.tv).
