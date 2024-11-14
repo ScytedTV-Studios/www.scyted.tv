@@ -6,7 +6,21 @@ show: tindalos
 description:
 ---
 
-<h3>Tindalos: Rampage</h3>
+<style>
+
+    .banner-image {
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+</style>
+
+<img src="https://cdn.scyted.tv/website-assets/show-banners/tindalos-rampage.jpg" alt="Banner Image" class="banner-image">
+
+<h1>Tindalos: Rampage</h1>
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; justify-content: center;">
     <a href="https://music.youtube.com/playlist?list=PLV0VBvplPalBViXUNws_SyxsZt3TB6zlK" target="_blank">
@@ -30,7 +44,11 @@ description:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2xXVDShrwRnctSaS0CCjtm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/621yw2g3GMcIhIQfPICYVH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<h3>Tindalos: No Mercy</h3>
+---
+
+<img src="https://cdn.scyted.tv/website-assets/show-banners/tindalos-no-mercy.jpg" alt="Banner Image" class="banner-image">
+
+<h1>Tindalos: No Mercy</h1>
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; justify-content: center;">
     <a href="https://music.youtube.com/playlist?list=PLV0VBvplPalAu9SVR8f-9pb9lIXlp__S5" target="_blank">
@@ -55,7 +73,9 @@ description:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5fwNsy0rffDNcGwrzoc7vH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3kJXzEx7HFjoeYwQcyPfeM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-## Tindalos: Early Access
+---
+
+<h1>Tindalos: Early Access</h1>
 **Get early access to Tindalos episodes on Spotify via Patreon!**
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; justify-content: center;">
