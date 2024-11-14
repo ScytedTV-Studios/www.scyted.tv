@@ -44,6 +44,8 @@ description:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2xXVDShrwRnctSaS0CCjtm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/621yw2g3GMcIhIQfPICYVH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/tindalos-rampage/id1775075896"></iframe>
+
 ---
 
 <img src="https://cdn.scyted.tv/website-assets/show-banners/tindalos-no-mercy.jpg" alt="Banner Image" class="banner-image">
@@ -73,7 +75,11 @@ description:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5fwNsy0rffDNcGwrzoc7vH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3kJXzEx7HFjoeYwQcyPfeM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/tindalos-no-mercy/id1765803164"></iframe>
+
 ---
+
+<img src="https://cdn.scyted.tv/website-assets/show-banners/tindalos-early-access.jpg" alt="Banner Image" class="banner-image">
 
 <h1>Tindalos: Early Access</h1>
 **Get early access to Tindalos episodes on Spotify via Patreon!**
@@ -86,5 +92,17 @@ description:
         <img src="https://cdn.scyted.tv/website-assets/company-logos/spotify.png" alt="Spotify" style="width: 40px; height: 40px; border-radius: 8px;">
     </a>
 </div>
+
+<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2bHVDBlBzxOMD9on7JkDKP?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/52ODEzstdG2ZzCAuNZUojM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0Be899UXX1gDWEMrHp9wGa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0L4p4b48W068ccrGItET7h?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5MJblJ9SGG9f1DHUjZAKRO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3gmj0Crix7dgBxqNCsOihv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3te1AKaDa8QAMJY8CHtGJh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/053sRDgdxn9Jl9ufB3LrMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5XELn7fmRqpAuEO9wgiFRU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+*Latest episode*
 
 <script src="show-scripts.js"></script>
