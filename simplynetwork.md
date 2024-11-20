@@ -14,9 +14,9 @@ layout: simplynetwork
         basePath: null,
 
         theme: 'dark',
-        initialPage: 'Board',
-        hideMenu: true,
-        hideLogo: true,
+        initialPage: 'Roadmap',
+        hideMenu: false,
+        hideLogo: false,
         filters: null,
         jwtToken: null,
         metadata: null,
