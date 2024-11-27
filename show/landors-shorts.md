@@ -6,6 +6,6 @@ description:
 ---
 
 <h3>Landor's Shorts</h3>
-This show has been cancelled and will recieve no releases.
+This show has been cancelled and will receive no releases.
 
 <script src="show-scripts.js"></script>
