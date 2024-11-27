@@ -117,7 +117,7 @@ description:
     </a>
 </div>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/34SjVGuBw5sLfOQeEsvCFB?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/34SjVGuBw5sLfOQeEsvCFB?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2bHVDBlBzxOMD9on7JkDKP?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/52ODEzstdG2ZzCAuNZUojM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0Be899UXX1gDWEMrHp9wGa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -125,9 +125,9 @@ description:
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5MJblJ9SGG9f1DHUjZAKRO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3gmj0Crix7dgBxqNCsOihv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3te1AKaDa8QAMJY8CHtGJh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/053sRDgdxn9Jl9ufB3LrMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/053sRDgdxn9Jl9ufB3LrMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
-<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5XELn7fmRqpAuEO9wgiFRU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-*Latest episode* -->
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5XELn7fmRqpAuEO9wgiFRU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+*Latest episode*
 
 <script src="show-scripts.js"></script>
