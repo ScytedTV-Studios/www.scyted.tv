@@ -6,7 +6,7 @@ description:
 ---
 
 <h3>Hot Gossip</h3>
-This show is no longer available to watch or listen to on any platform as we're in the process of delisting it.<br>
-This show will never be available to watch again for free or paid due to changes within the company.
+This show has been merged into <a href="../show/scytedtv-creators">ScytedTV Creators</a> and will no longer be listed as its own show.<br>
+We have decided to do this because this show itself has been cancelled, and we don't want to have a long list of 1-episode shows.
 
 <script src="show-scripts.js"></script>

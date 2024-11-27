@@ -3,7 +3,7 @@ title: Tindalos
 layout: page
 type: show
 show: tindalos
-description:
+description: Tindalos is a web series dedicated to exploring the dark, bizarre, and strange things in media.
 ---
 
 <style>

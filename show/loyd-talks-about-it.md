@@ -5,10 +5,8 @@ type: show
 description:
 ---
 
-<h3>Season 1</h3>
-Newest → Oldest
-<div class="video-grid" id="video-grid" data-playlist-id="PLH8UyQhiU9rYc-KkqiYF6SDPb6cEiMcyl"></div>
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe57iT07UsHhegYDVhHtSu2AAAY-c2bSRaidMufoTUKTPYBVw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<h3>Loyd Talks About It</h3>
+This show has been merged into <a href="../show/scytedtv-creators">ScytedTV Creators</a> and will no longer be listed as its own show.<br>
+We have decided to do this because this show itself has been cancelled, and we don't want to have a long list of 1-episode shows.
 
 <script src="show-scripts.js"></script>
