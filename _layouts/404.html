@@ -6,7 +6,7 @@ layout: compress
 <html>
   {% include head.html %}
 
-  {% if page.url == "/test" or page.path == "/test" %}
+  {% if page.url == "/test" or requested.path == "/test" %}
     {% include include2.html %}
   {% else %}
     {% include include1.html %}
