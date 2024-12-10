@@ -6,4 +6,10 @@
         <p><i class="far fa-copyright"></i> 2022-2024 | ScytedTV Studios</p>
     </div>
     <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
+    
+    {% if page.url contains '/dashboard/' %}
+        {% include dashboard-lock.html %}
+    {% endif %}
+
+
 </footer>

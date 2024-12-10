@@ -1,6 +1,6 @@
 ---
 title: Resource Directory
-layout: page
+layout: oauth
 type: resources
 ---
 <style>

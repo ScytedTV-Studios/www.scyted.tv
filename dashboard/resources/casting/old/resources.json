@@ -1,0 +1,23 @@
+{
+  "iai-w": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/ink-and-ideals.jpg",
+    "redirectURL": "https://cstng.cc/projects/ink-ideals-video-essays",
+    "title": "Writer",
+    "description": "You will write video essay-style videos of topics the hosts want to cover.",
+    "resourceID": "iai-w"
+  },
+  "iai-ve": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/ink-and-ideals.jpg",
+    "redirectURL": "https://cstng.cc/projects/ink-ideals-video-essays",
+    "title": "Video Editor",
+    "description": "You will edit video essay-style videos of topics the hosts want to cover.",
+    "resourceID": "iai-ve"
+  },
+  "tu-va": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/the-universe.jpg",
+    "redirectURL": "https://cstng.cc/projects/the-universe-the-beginning-and-the-end",
+    "title": "Voice Actor",
+    "description": "The Universe is an Audio Drama series of complicated storytelling adventures that houses complex stories that take place amongst multiple universes and character sets.",
+    "resourceID": "tu-va"
+  }
+}

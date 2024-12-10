@@ -1,0 +1,113 @@
+body, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#audition-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#audition-list {
+    margin-top: 20px;
+}
+
+.audition-role {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-between;
+    opacity: 0;
+    animation: pop-in 0.5s forwards;
+}
+
+.audition-role.taken {
+    background-color: #ffcccb;
+}
+
+.audition-role.available {
+    background-color: #d4edda;
+}
+
+.audition-role.highlighted {
+    border: 2px solid gold;
+    animation: pop 0.5s ease;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pop-out {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+#search-bar {
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reload-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Adjust this to fit your website's theme */
+    color: #6c757d;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+#reload-button:hover {
+    background-color: #e2e2e2; /* Slightly darker on hover */
+}
+
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}

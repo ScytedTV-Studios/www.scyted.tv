@@ -33,6 +33,34 @@ a.navbar-item.is-active {
     }
 }
 
+button.navbar-item {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.navbar-item:hover {
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: white !important;
+}
+
+button.navbar-item.is-active {
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: white !important;
+
+    &:hover {
+        background-color: rgba($color: #fff, $alpha: 0.25) !important;
+        color: grey !important;
+    }
+}
+
 .navbar-link:not(.is-arrowless)::after {
     border-color: grey;
 }

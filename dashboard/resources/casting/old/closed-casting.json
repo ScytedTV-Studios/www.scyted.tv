@@ -1,0 +1,23 @@
+{
+    "stvn-smm": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
+    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
+    "title": "Social Media Manager",
+    "description": "We're looking for someone who will keep our social media for ScytedTV News updated for new shorts and video releases.",
+    "resourceID": "stvn-smm"
+  },
+  "stvn-sw": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
+    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
+    "title": "Shorts Writer",
+    "description": "We need someone to write the stories for our shorts, as well as adapt our longer-form stories into shorts.",
+    "resourceID": "stvn-sw"
+  },
+  "stvn-naa": {
+    "imageURL": "https://cdn.scyted.tv/website-assets/show-square-logo/scytedtv-news.jpg",
+    "redirectURL": "https://cstng.cc/projects/scytedtv-news",
+    "title": "News Article Adaptation",
+    "description": "We need someone who can adapt our stories into news articles on our website.",
+    "resourceID": "stvn-naa"
+  }
+}

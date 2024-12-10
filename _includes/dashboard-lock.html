@@ -1,0 +1,51 @@
+<script src="https://api.scyted.tv/website/staff-portal/login-redirect.js"></script>
+    <script src="https://api.scyted.tv/website/staff-portal/cache-buster.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to append a unique query string to URLs
+            function addCacheBuster(url) {
+                const cacheBuster = `cb=${new Date().getTime()}`;
+                return url.includes('?') ? `${url}&${cacheBuster}` : `${url}?${cacheBuster}`;
+            }
+
+            // Update all script sources
+            const scripts = document.querySelectorAll('script[src]');
+            scripts.forEach(script => {
+                const newSrc = addCacheBuster(script.src);
+                script.src = newSrc;
+            });
+
+            // Update all link hrefs (CSS files)
+            const links = document.querySelectorAll('link[rel="stylesheet"]');
+            links.forEach(link => {
+                const newHref = addCacheBuster(link.href);
+                link.href = newHref;
+            });
+
+            // Update all image sources
+            const images = document.querySelectorAll('img');
+            images.forEach(image => {
+                const newSrc = addCacheBuster(image.src);
+                image.src = newSrc;
+            });
+
+            // Update all fetch requests (e.g., JSON files)
+            const fetchRequests = document.querySelectorAll('[data-fetch-url]');
+            fetchRequests.forEach(element => {
+                const fetchUrl = element.getAttribute('data-fetch-url');
+                const newUrl = addCacheBuster(fetchUrl);
+                element.setAttribute('data-fetch-url', newUrl);
+            });
+
+            // Optional: Reload the page with cache cleared
+            fetch(window.location.href, { cache: "reload" })
+                .then(response => {
+                    if (response.status === 200) {
+                        console.log("Cache cleared and page reloaded");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error reloading page: ", error);
+                });
+        });
+    </script>
