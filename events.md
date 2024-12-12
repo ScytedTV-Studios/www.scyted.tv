@@ -177,7 +177,7 @@ body {
             eventDiv.id = `event-${event.id}`;
             const coverStyle = event.cover
                 ? `background-image: url('${event.cover}');`
-                : `background-color: white;`;
+                : `background-color: #ffea3b;`;
             eventDiv.innerHTML = `
                 <h2>${event.name}</h2>
                 <div class="iframe-wrapper">
