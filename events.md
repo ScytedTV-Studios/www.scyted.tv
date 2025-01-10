@@ -4,7 +4,7 @@ layout: page
 type: events
 ---
 
-<link rel="stylesheet" href="https://api.scyted.tv/v1/wave-development/scrollbar-styles.css">
+<link rel="stylesheet" href="https://api.scyted.tv/v1/v1/wave-development/scrollbar-styles.css">
 <style>
 body {
     background-color: #141414;
@@ -142,7 +142,7 @@ body {
         </div>
     </div>
     <script>
-        const jsonUrl = `https://api.scyted.tv/v1/parties/events.json?timestamp=${new Date().getTime()}`;
+        const jsonUrl = `https://api.scyted.tv/v1/v1/parties/events.json?timestamp=${new Date().getTime()}`;
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
@@ -182,7 +182,7 @@ body {
                 <h2>${event.name}</h2>
                 <div class="iframe-wrapper">
                     <div class="blurred-background" style="${coverStyle}"></div>
-                    <iframe src="https://api.scyted.tv/v1/parties/timer.html?id=${event.id}" frameborder="0"></iframe>
+                    <iframe src="https://api.scyted.tv/v1/v1/parties/timer.html?id=${event.id}" frameborder="0"></iframe>
                 </div>
                 <div class="live-indicator"></div>
             `;

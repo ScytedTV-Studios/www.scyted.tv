@@ -48,7 +48,7 @@ function displayContents(userData) {
     `;
 
     // Fetch the JSON file from the new provided link
-    fetch('https://api.scyted.tv/heart-collectors/userinfo.json')
+    fetch('https://api.scyted.tv/v1/heart-collectors/userinfo.json')
     .then(response => response.json())
     .then(data => {
         // Find the user with the specified userID

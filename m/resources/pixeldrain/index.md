@@ -12,7 +12,7 @@ type: resources
         display: none;
     }
 </style>
-<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources-mobile.css">
+<link rel="stylesheet" href="https://api.scyted.tv/v1/wave-development/dashboard/scytedtv-resources-mobile.css">
 <body>
 
 <div class="banner">
@@ -87,10 +87,10 @@ This resource isn't meant for mobile devices. Please try again on a Desktop or P
 </div>
 </div>
 
-<script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
+<script src="https://api.scyted.tv/v1/wave-development/dashboard/page-loading-script.js"></script>
 <script src="index-script.js"></script>
 <script src="insert-scripts.js"></script>
-<script src="https://api.scyted.tv/wave-development/dashboard/mobile-redirect.js"></script>
+<script src="https://api.scyted.tv/v1/wave-development/dashboard/mobile-redirect.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
 
 </body>

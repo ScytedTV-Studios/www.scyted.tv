@@ -48,7 +48,7 @@ function displayContents(userData) {
     `;
 
     // Fetch the JSON file from the new provided link
-    fetch('https://api.scyted.tv/heart-collectors/userinfo.json')
+    fetch('https://api.scyted.tv/v1/heart-collectors/userinfo.json')
         .then(response => response.json())
         .then(data => {
             // Find the user with the specified userID
@@ -188,8 +188,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 const loggedInUserId = userData.id;
 
                 // Fetch the list of user IDs from the JSON file
-                fetch('https://api.scyted.tv/wave-development/dashboard/access/scytedtv-user-access.json')
-                    // fetch('https://api.scyted.tv/website/dashboard/access/dashboard-access.json')
+                fetch('https://api.scyted.tv/v1/wave-development/dashboard/access/scytedtv-user-access.json')
+                    // fetch('https://api.scyted.tv/v1/website/dashboard/access/dashboard-access.json')
                     .then(response => response.json())
                     .then(userIds => {
                         // Check if the logged-in user's ID is in the list

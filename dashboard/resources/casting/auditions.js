@@ -19,7 +19,7 @@ async function getUserData() {
 }
 
 async function getAuditions() {
-    const auditions = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/auditions.json'));
+    const auditions = await fetchJSON(addCacheBuster('https://api.scyted.tv/v1/website/staff-portal/auditions.json'));
     return auditions;
 }
 

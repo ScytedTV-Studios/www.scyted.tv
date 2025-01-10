@@ -85,7 +85,7 @@ function closeLightbox() {
 }
 
 // Fetch the JSON data
-fetch('https://api.scyted.tv/assets-library/libraries/logos.json')
+fetch('https://api.scyted.tv/v1/assets-library/libraries/logos.json')
     .then(response => response.json())
     .then(data => populateTable(data.items))
     .catch(error => console.error('Error fetching JSON:', error));

@@ -20,18 +20,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Display bot info and user info on the dashboard
                 displayContents(userData);
                 displayUserInfo(userData);
-                displayLevlrInfo(userData, 'userInfoBox5', 'https://api.scyted.tv/levlr/userdata.json', 'Season 5: June 2024');
-                displayLevlrInfo(userData, 'userInfoBox4', 'https://api.scyted.tv/levlr/userdata-season4.json', 'Season 4: May 2024');
-                displayLevlrInfo(userData, 'userInfoBox3', 'https://api.scyted.tv/levlr/userdata-season3.json', 'Season 3: March-April 2024');
-                displayLevlrInfo(userData, 'userInfoBox2', 'https://api.scyted.tv/levlr/userdata-season2.json', 'Season 2: February 2024');
-                displayLevlrInfo(userData, 'userInfoBox1', 'https://api.scyted.tv/levlr/userdata-season1.json', 'Season 1: January 2024');
-                displayLevlrInfo(userData, 'userInfoBox0', 'https://api.scyted.tv/levlr/userdata-season0.json', 'Season 0: 2023');
+                displayLevlrInfo(userData, 'userInfoBox5', 'https://api.scyted.tv/v1/levlr/userdata.json', 'Season 5: June 2024');
+                displayLevlrInfo(userData, 'userInfoBox4', 'https://api.scyted.tv/v1/levlr/userdata-season4.json', 'Season 4: May 2024');
+                displayLevlrInfo(userData, 'userInfoBox3', 'https://api.scyted.tv/v1/levlr/userdata-season3.json', 'Season 3: March-April 2024');
+                displayLevlrInfo(userData, 'userInfoBox2', 'https://api.scyted.tv/v1/levlr/userdata-season2.json', 'Season 2: February 2024');
+                displayLevlrInfo(userData, 'userInfoBox1', 'https://api.scyted.tv/v1/levlr/userdata-season1.json', 'Season 1: January 2024');
+                displayLevlrInfo(userData, 'userInfoBox0', 'https://api.scyted.tv/v1/levlr/userdata-season0.json', 'Season 0: 2023');
 
                 const loggedInUserId = userData.id;
 
                 // Fetch the list of user IDs from the JSON file
-                fetch('https://api.scyted.tv/wave-development/dashboard/access/scytedtv-user-access.json')
-                // fetch('https://api.scyted.tv/website/dashboard/access/dashboard-access.json')
+                fetch('https://api.scyted.tv/v1/wave-development/dashboard/access/scytedtv-user-access.json')
+                // fetch('https://api.scyted.tv/v1/website/dashboard/access/dashboard-access.json')
                     .then(response => response.json())
                     .then(userIds => {
                         // Check if the logged-in user's ID is in the list

@@ -13,7 +13,7 @@ type: team
     }
 </style>
 <link rel="stylesheet" href="styles.css">
-<!-- <link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/mobile-lock.css"> -->
+<!-- <link rel="stylesheet" href="https://api.scyted.tv/v1/wave-development/dashboard/mobile-lock.css"> -->
 <body>
 
 <style>

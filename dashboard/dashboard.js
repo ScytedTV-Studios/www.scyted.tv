@@ -13,7 +13,7 @@ async function getUserID(accessToken) {
 }
 
 async function getRoles() {
-    const roles = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/roles.json'));
+    const roles = await fetchJSON(addCacheBuster('https://api.scyted.tv/v1/website/staff-portal/roles.json'));
     return roles;
 }
 
@@ -21,7 +21,7 @@ async function getUserInfo() {
     const accessToken = document.cookie.split('; ').find(row => row.startsWith('accessToken')).split('=')[1];
     const userData = await getUserID(accessToken);
 
-    const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/user-info.json'));
+    const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/v1/website/staff-portal/user-info.json'));
     const rolesData = await getRoles();
     
     const userId = userData.id;

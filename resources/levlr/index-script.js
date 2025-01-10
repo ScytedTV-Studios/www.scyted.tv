@@ -20,18 +20,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Display bot info and user info on the dashboard
                 displayContents(userData);
                 displayUserInfo(userData);
-                displayLevlrInfo(userData, 'userInfoBox6', `https://api.scyted.tv/levlr/userdata.json?timestamp=${new Date().getTime()}`, 'Season 5: November 2024 (Revival)');
-                displayLevlrInfo(userData, 'userInfoBox5', `https://api.scyted.tv/levlr/userdata-season5.json?timestamp=${new Date().getTime()}`, 'Season 5: June 2024');
-                displayLevlrInfo(userData, 'userInfoBox4', `https://api.scyted.tv/levlr/userdata-season4.json?timestamp=${new Date().getTime()}`, 'Season 4: May 2024');
-                displayLevlrInfo(userData, 'userInfoBox3', `https://api.scyted.tv/levlr/userdata-season3.json?timestamp=${new Date().getTime()}`, 'Season 3: March-April 2024');
-                displayLevlrInfo(userData, 'userInfoBox2', `https://api.scyted.tv/levlr/userdata-season2.json?timestamp=${new Date().getTime()}`, 'Season 2: February 2024');
-                displayLevlrInfo(userData, 'userInfoBox1', `https://api.scyted.tv/levlr/userdata-season1.json?timestamp=${new Date().getTime()}`, 'Season 1: January 2024');
-                displayLevlrInfo(userData, 'userInfoBox0', `https://api.scyted.tv/levlr/userdata-season0.json?timestamp=${new Date().getTime()}`, 'Season 0: 2023');
+                displayLevlrInfo(userData, 'userInfoBox6', `https://api.scyted.tv/v1/levlr/userdata.json?timestamp=${new Date().getTime()}`, 'Season 5: November 2024 (Revival)');
+                displayLevlrInfo(userData, 'userInfoBox5', `https://api.scyted.tv/v1/levlr/userdata-season5.json?timestamp=${new Date().getTime()}`, 'Season 5: June 2024');
+                displayLevlrInfo(userData, 'userInfoBox4', `https://api.scyted.tv/v1/levlr/userdata-season4.json?timestamp=${new Date().getTime()}`, 'Season 4: May 2024');
+                displayLevlrInfo(userData, 'userInfoBox3', `https://api.scyted.tv/v1/levlr/userdata-season3.json?timestamp=${new Date().getTime()}`, 'Season 3: March-April 2024');
+                displayLevlrInfo(userData, 'userInfoBox2', `https://api.scyted.tv/v1/levlr/userdata-season2.json?timestamp=${new Date().getTime()}`, 'Season 2: February 2024');
+                displayLevlrInfo(userData, 'userInfoBox1', `https://api.scyted.tv/v1/levlr/userdata-season1.json?timestamp=${new Date().getTime()}`, 'Season 1: January 2024');
+                displayLevlrInfo(userData, 'userInfoBox0', `https://api.scyted.tv/v1/levlr/userdata-season0.json?timestamp=${new Date().getTime()}`, 'Season 0: 2023');
 
                 const loggedInUserId = userData.id;
 
                 // Fetch the list of user IDs from the JSON file with cache busting
-                fetch(`https://api.scyted.tv/wave-development/dashboard/access/scytedtv-user-access.json?timestamp=${new Date().getTime()}`)
+                fetch(`https://api.scyted.tv/v1/wave-development/dashboard/access/scytedtv-user-access.json?timestamp=${new Date().getTime()}`)
                     .then(response => response.json())
                     .then(userIds => {
                         // Check if the logged-in user's ID is in the list

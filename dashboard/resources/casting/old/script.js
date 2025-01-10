@@ -17,7 +17,7 @@ async function getResources() {
     const accessToken = document.cookie.split('; ').find(row => row.startsWith('accessToken')).split('=')[1];
     const userId = await getUserID(accessToken);
 
-    const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/website/staff-portal/user-info.json'));
+    const userInfo = await fetchJSON(addCacheBuster('https://api.scyted.tv/v1/website/staff-portal/user-info.json'));
     const roleAccess = await fetchJSON(addCacheBuster('role-access.json'));
     const resources = await fetchJSON(addCacheBuster('resources.json'));
 

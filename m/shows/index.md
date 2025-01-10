@@ -12,7 +12,7 @@ type: shows
         display: none;
     }
 </style>
-<link rel="stylesheet" href="https://api.scyted.tv/wave-development/dashboard/scytedtv-resources-mobile.css">
+<link rel="stylesheet" href="https://api.scyted.tv/v1/wave-development/dashboard/scytedtv-resources-mobile.css">
 <body>
 
 <!-- <div class="mobile-error">
@@ -30,9 +30,9 @@ type: shows
   </div>
 
   <script src="script.js"></script>
-  <script src="https://api.scyted.tv/wave-development/dashboard/mobile-redirect.js"></script>
+  <script src="https://api.scyted.tv/v1/wave-development/dashboard/mobile-redirect.js"></script>
 
-<!-- <script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script> -->
+<!-- <script src="https://api.scyted.tv/v1/wave-development/dashboard/page-loading-script.js"></script> -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
 
 </body>

@@ -156,9 +156,9 @@ function displayContents() {
                 <div class="bot-name"></div>
                 <div class="button-container">
                     <button class="api-button"
-                        onclick="changeApiUrl('https://api.scyted.tv/assets-library/libraries/logos.json')">Logos</button>
+                        onclick="changeApiUrl('https://api.scyted.tv/v1/assets-library/libraries/logos.json')">Logos</button>
                     <button class="api-button"
-                        onclick="changeApiUrl('https://api.scyted.tv/assets-library/libraries/intros-outros.json')">Intros
+                        onclick="changeApiUrl('https://api.scyted.tv/v1/assets-library/libraries/intros-outros.json')">Intros
                         & Outros</button>
                 </div>
             </div>

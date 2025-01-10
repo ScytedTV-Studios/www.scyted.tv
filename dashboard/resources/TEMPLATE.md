@@ -4,10 +4,10 @@ layout: page
 type: resources
 ---
 
-<link rel="stylesheet" href="https://api.scyted.tv/website/staff-portal/scytedtv-resources.css">
-<link rel="stylesheet" href="https://api.scyted.tv/website/staff-portal/mobile-lock.css">
-<script src="https://api.scyted.tv/wave-development/dashboard/page-loading-script.js"></script>
-<script src="https://api.scyted.tv/website/staff-portal/resources-scripts.js"></script>
+<link rel="stylesheet" href="https://api.scyted.tv/v1/website/staff-portal/scytedtv-resources.css">
+<link rel="stylesheet" href="https://api.scyted.tv/v1/website/staff-portal/mobile-lock.css">
+<script src="https://api.scyted.tv/v1/wave-development/dashboard/page-loading-script.js"></script>
+<script src="https://api.scyted.tv/v1/website/staff-portal/resources-scripts.js"></script>
 
 <body>
 

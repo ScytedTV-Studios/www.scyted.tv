@@ -19,7 +19,7 @@ type: resources
   <div id="insert-content" class="insert-content">
   </div>
 
-<script src="https://api.scyted.tv/wave-development/dashboard/long-page-loading-script.js"></script>
+<script src="https://api.scyted.tv/v1/wave-development/dashboard/long-page-loading-script.js"></script>
 <script src="index-script.js"></script>
 <script src="insert-scripts.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3ZTHGQHE"></script>
