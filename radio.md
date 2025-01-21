@@ -144,7 +144,7 @@ description: ScytedTV Studio's Radio Show
             }
         }
 
-        setInterval(fetchSongInfo, 5000);
+        setInterval(fetchSongInfo, 15000);
 
         fetchSongInfo();
     </script>
