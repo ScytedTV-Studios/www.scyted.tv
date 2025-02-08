@@ -1,6 +1,6 @@
 ---
-title: 404
+title: Invalid URL
 layout: 404
 ---
 
-Invalid ScytedTV GO URL
+This ScytedTV GO URL is invalid
