@@ -141,7 +141,7 @@ description: ScytedTV Studio's Radio Show
 
                 if (data.title && data.artist) {
                     nowPlaying.innerHTML = `<strong>${data.title}</strong> by <strong>${data.artist}</strong>`;
-                } if else (data.warning) {
+                } if (data.warning) {
                     nowPlaying.innerHTML = `<strong>${data.warning}</strong>`;
                 } else {
                     nowPlaying.textContent = "";
