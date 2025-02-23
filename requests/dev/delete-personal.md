@@ -15,4 +15,5 @@ description: Request deletion of your personal or server data that is stored on 
     }
 </style>
 
-<iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSffT8OFqEUVnmGv7kirLfLZCmr4BbFmrrzufqhtE5Naqgs_3A" width="1080" height="1240" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/100936483735476707459/form/1FAIpQLSffT8OFqEUVnmGv7kirLfLZCmr4BbFmrrzufqhtE5Naqgs_3A/classic.js?div=ff-compose"></script>
