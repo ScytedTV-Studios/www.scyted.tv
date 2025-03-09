@@ -43,7 +43,6 @@ type: seaside
       color: #fff;
     }
 
-    /* Ensure footer stays at the bottom */
     #footer {
       position: absolute;
       bottom: 0;
